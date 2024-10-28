@@ -1,0 +1,1068 @@
+2024.10.27 20:14:24 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\artam\Desktop\FPlabs' for client Visual Studio Code 1.94.2.
+2024.10.27 20:14:24 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.27 20:14:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.27 20:14:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.27 20:14:26 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.10.27 20:14:27 INFO  Running List(C:\Program Files\Java\jdk-18.0.2\bin\java.exe, -cp, C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\cli_3\1.5.1\cli_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app_3\2.1.0-M29\case-app_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-launcher_2.13\2.1.13\coursier-launcher_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-proxy-setup\2.1.13\coursier-proxy-setup-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\publish\publish_2.13\0.1.6\publish_2.13-0.1.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\jimfs\jimfs\1.3.0\jimfs-1.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\jniutils\windows-jni-utils\0.3.3\windows-jni-utils-0.3.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\plokhotnyuk\jsoniter-scala\jsoniter-scala-core_3\2.13.5.2\jsoniter-scala-core_3-2.13.5.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\libsodiumjni\0.0.4\libsodiumjni-0.0.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-typesafe-config_3\0.13.0\metaconfig-typesafe-config_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ai\kien\python-native-libs_3\0.2.4\python-native-libs_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-packager_2.13\0.1.29\scala-packager_2.13-0.1.29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\cli_3\0.2.4\cli_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-nop\2.0.16\slf4j-nop-2.0.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\client3\core_2.13\3.9.8\core_2.13-3.9.8.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.4\scala3-library_3-3.3.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-module_3\1.5.1\build-module_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\config_3\1.5.1\config_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala3-graal_3\1.5.1\scala3-graal_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\specification-level_3\1.5.1\specification-level_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\sourcecode_3\0.4.2\sourcecode_3-0.4.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-annotations_3\2.1.0-M29\case-app-annotations_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-util_3\2.1.0-M29\case-app-util_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\tmp\zip-input-stream\0.1.1\zip-input-stream-0.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.15\scala-library-2.13.15.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-cache_2.13\2.1.13\coursier-cache_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-core_2.13\2.1.13\coursier-core_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-core_3\0.13.0\metaconfig-core_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.3\config-1.4.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-collection-compat_3\2.12.0\scala-collection-compat_3-2.12.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-core\0.22.0\jib-core-0.22.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcpg-jdk18on\1.78.1\bcpg-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\shared_3\0.2.4\shared_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\model\core_2.13\1.7.9\core_2.13-1.7.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\core_2.13\1.3.16\core_2.13-1.3.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\ws_2.13\1.3.16\ws_2.13-1.3.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\java-class-name\java-class-name_3\0.1.3\java-class-name_3-0.1.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\semanticdb-shared_2.13.15\4.9.9\semanticdb-shared_2.13.15-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\test-runner_3\0.5.5\test-runner_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-lib_3\0.10.6\os-lib_3-0.10.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\pprint_3\0.9.0\pprint_3-0.9.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-nodejs_2.13\1.4.0\scalajs-env-nodejs_2.13-1.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-sbt-test-adapter_2.13\1.17.0\scalajs-sbt-test-adapter_2.13-1.17.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\swoval\file-tree-views\2.1.12\file-tree-views-2.1.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\zip-input-stream\zip-input-stream\0.1.2\zip-input-stream-0.1.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\options_3\1.5.1\options_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\directives_3\1.5.1\directives_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala-cli-bsp\1.5.1\scala-cli-bsp-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\test-runner_3\1.5.1\test-runner_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\tasty-lib_3\1.5.1\tasty-lib_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-archiver\4.9.0\plexus-archiver-4.9.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-container-default\2.1.1\plexus-container-default-2.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\windows-ansi\windows-ansi\0.0.5\windows-ansi-0.0.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-util_2.13\2.1.13\coursier-util_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\concurrent-reference-hash-map\1.1.0\concurrent-reference-hash-map-1.1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\2.3.0\scala-xml_2.13-2.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-pprint_3\0.13.0\metaconfig-pprint_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\typelevel\paiges-core_3\0.4.4\paiges-core_3-0.4.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.14\scala-reflect-2.13.14.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-build-plan\0.4.0\jib-build-plan-0.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client\1.34.0\google-http-client-1.34.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-apache-v2\1.34.0\google-http-client-apache-v2-1.34.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-oauth2-http\0.18.0\google-auth-library-oauth2-http-0.18.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.3\jackson-datatype-jsr310-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcprov-jdk18on\1.78.1\bcprov-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcutil-jdk18on\1.78.1\bcutil-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.3.1\scala3-compiler_3-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\scalameta_2.13\4.9.9\scalameta_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\scalapb-runtime_2.13\0.11.17\scalapb-runtime_2.13-0.11.17.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\tools_3\0.5.5\tools_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\sbt\junit-interface\0.13.3\junit-interface-0.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_3\1.1.1\geny_3-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\fansi_3\0.5.0\fansi_3-0.5.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-js-envs_2.13\1.4.0\scalajs-js-envs_2.13-1.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-config_2.13\2.0.3\bloop-config_2.13-2.0.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\core_3\1.5.1\core_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\using_directives\1.1.1\using_directives-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-macros_3\1.5.1\build-macros_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bsp4j\2.1.1\bsp4j-2.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-utils\4.0.0\plexus-utils-4.0.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-io\3.4.1\plexus-io-3.4.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\iq80\snappy\snappy\0.4\snappy-0.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\tukaani\xz\1.9\xz-1.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\luben\zstd-jni\1.5.5-10\zstd-jni-1.5.5-10.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\xbean\xbean-reflect\3.7\xbean-reflect-3.7.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.18\jansi-1.18.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpclient\4.5.10\httpclient-4.5.10.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpcore\4.4.12\httpcore-4.4.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-api\0.24.0\opencensus-api-0.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-contrib-http-util\0.24.0\opencensus-contrib-http-util-0.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auto\value\auto-value-annotations\1.6.6\auto-value-annotations-1.6.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-credentials\0.18.0\google-auth-library-credentials-0.18.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-jackson2\1.32.1\google-http-client-jackson2-1.32.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.3.1\scala3-interfaces-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.3.1\tasty-core_3-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.5.0-scala-1\scala-asm-9.5.0-scala-1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.3.5\compiler-interface-1.3.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.19.0\jline-reader-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.19.0\jline-terminal-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jna\3.19.0\jline-terminal-jna-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\parsers_2.13\4.9.9\parsers_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scalap\2.13.11\scalap-2.13.11.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\lenses_2.13\0.11.17\lenses_2.13-0.11.17.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.19.6\protobuf-java-3.19.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\nir_3\0.5.5\nir_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\util_3\0.5.5\util_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-logging_2.13\1.1.1\scalajs-logging_2.13-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\unroll-annotation_2.13\0.1.12\unroll-annotation_2.13-0.1.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-rifle_2.13\2.0.2\bloop-rifle_2.13-2.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-jvm_2.13\2.1.13\coursier-jvm_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\dependency_3\0.2.3\dependency_3-0.2.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jgit\org.eclipse.jgit\6.8.0.202311291450-r\org.eclipse.jgit-6.8.0.202311291450-r.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-jsdom-nodejs_2.13\1.1.0\scalajs-env-jsdom-nodejs_2.13-1.1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.generator\0.20.1\org.eclipse.lsp4j.generator-0.20.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.jsonrpc\0.20.1\org.eclipse.lsp4j.jsonrpc-0.20.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\grpc\grpc-context\1.22.1\grpc-context-1.22.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.3.0\util-interface-1.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\trees_2.13\4.9.9\trees_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.11\scala-compiler-2.13.11.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\libdaemon_2.13\0.0.12\libdaemon_2.13-0.0.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\snailgun\snailgun-core_2.13\0.4.1-sc2\snailgun-core_2.13-0.4.1-sc2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\argonaut-shapeless_6.3_2.13\1.3.1\argonaut-shapeless_6.3_2.13-1.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier_2.13\2.1.13\coursier_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-env_2.13\2.1.13\coursier-env_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\googlecode\javaewah\JavaEWAH\1.2.3\JavaEWAH-1.2.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib\2.28.0\org.eclipse.xtend.lib-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\common_2.13\4.9.9\common_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\argonaut\argonaut_2.13\6.3.8\argonaut_2.13-6.3.8.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\chuusai\shapeless_2.13\2.3.9\shapeless_2.13-2.3.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtext\org.eclipse.xtext.xbase.lib\2.28.0\org.eclipse.xtext.xbase.lib-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib.macro\2.28.0\org.eclipse.xtend.lib.macro-2.28.0.jar, scala.cli.ScalaCli, bsp, C:\Users\artam\Desktop\FPlabs)
+2024.10.27 20:14:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.27 20:14:31 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar
+2024.10.27 20:14:32 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar
+2024.10.27 20:14:33 INFO  Connected to Scala CLI server v1.5.1
+2024.10.27 20:14:33 INFO  compiling fplabs_f4dd477a3a (1 scala source)
+2024.10.27 20:14:36 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.27 20:14:37 INFO  time: compiled FPlabs_f4dd477a3a in 3.91s
+2024.10.27 20:14:48 INFO  time: indexed workspace in 15s
+2024.10.27 20:14:50 INFO  Scala CLI started for C:\Users\artam\Desktop\FPlabs
+2024.10.27 20:14:50 WARN  no build tool detected in workspace 'C:\Users\artam\Desktop\FPlabs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.10.27 20:14:50 WARN  Build server is not auto-connectable.
+2024.10.27 20:15:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\.metals\dap-server.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2024.10.27 20:15:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\.metals\dap-client.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2024.10.27 20:15:06 INFO  Starting debug proxy for [helloworld]
+2024.10.27 20:15:26 INFO  Report absolute-path: ### java.nio.file.FileSystemNotFoundException: Provider "output" not installed
+
+Uri: output:tasks
+
+
+#### Error stacktrace:
+
+```
+java.base/java.nio.file.Path.of(Path.java:212)
+	java.base/java.nio.file.Paths.get(Paths.java:98)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:757)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceForOpt(WorkspaceLspService.scala:308)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:317)
+	scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1005)
+	scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+```
+
+окт. 27, 2024 8:15:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: Provider "output" not installed
+java.nio.file.FileSystemNotFoundException: Provider "output" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$validate$1(DebugDiscovery.scala:82)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:82)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1476)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1006)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.10.27 20:15:45 INFO  compiling fplabs_f4dd477a3a (1 scala source)
+2024.10.27 20:15:45 INFO  time: compiled FPlabs_f4dd477a3a in 0.56s
+2024.10.27 20:15:49 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\.metals\dap-server.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2024.10.27 20:15:49 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\.metals\dap-client.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2024.10.27 20:15:49 INFO  Starting debug proxy for [helloworld]
+2024.10.27 20:15:59 INFO  Loaded expression compiler in 52 seconds
+2024.10.27 20:16:01 INFO  Loaded expression compiler in 11 seconds
+2024.10.27 20:16:26 INFO  Canceling debug proxy for [helloworld]
+2024.10.27 20:16:27 INFO  Loaded step filter in 28 seconds
+2024.10.27 20:16:28 INFO  Shutting down server
+2024.10.27 20:16:28 INFO  shutting down Metals
+2024.10.27 20:16:28 INFO  Canceling debug proxy for [helloworld]
+2024.10.27 20:16:28 INFO  Shut down connection with build server.
+2024.10.27 20:16:28 INFO  Exiting server
+2024.10.27 20:17:00 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\artam\Desktop\FPlabs' for client Visual Studio Code 1.94.2.
+2024.10.27 20:17:00 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.27 20:17:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.27 20:17:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.27 20:17:02 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.10.27 20:17:04 INFO  Running List(C:\Program Files\Java\jdk-18.0.2\bin\java.exe, -cp, C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\cli_3\1.5.1\cli_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app_3\2.1.0-M29\case-app_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-launcher_2.13\2.1.13\coursier-launcher_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-proxy-setup\2.1.13\coursier-proxy-setup-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\publish\publish_2.13\0.1.6\publish_2.13-0.1.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\jimfs\jimfs\1.3.0\jimfs-1.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\jniutils\windows-jni-utils\0.3.3\windows-jni-utils-0.3.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\plokhotnyuk\jsoniter-scala\jsoniter-scala-core_3\2.13.5.2\jsoniter-scala-core_3-2.13.5.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\libsodiumjni\0.0.4\libsodiumjni-0.0.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-typesafe-config_3\0.13.0\metaconfig-typesafe-config_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ai\kien\python-native-libs_3\0.2.4\python-native-libs_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-packager_2.13\0.1.29\scala-packager_2.13-0.1.29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\cli_3\0.2.4\cli_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-nop\2.0.16\slf4j-nop-2.0.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\client3\core_2.13\3.9.8\core_2.13-3.9.8.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.4\scala3-library_3-3.3.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-module_3\1.5.1\build-module_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\config_3\1.5.1\config_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala3-graal_3\1.5.1\scala3-graal_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\specification-level_3\1.5.1\specification-level_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\sourcecode_3\0.4.2\sourcecode_3-0.4.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-annotations_3\2.1.0-M29\case-app-annotations_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-util_3\2.1.0-M29\case-app-util_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\tmp\zip-input-stream\0.1.1\zip-input-stream-0.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.15\scala-library-2.13.15.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-cache_2.13\2.1.13\coursier-cache_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-core_2.13\2.1.13\coursier-core_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-core_3\0.13.0\metaconfig-core_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.3\config-1.4.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-collection-compat_3\2.12.0\scala-collection-compat_3-2.12.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-core\0.22.0\jib-core-0.22.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcpg-jdk18on\1.78.1\bcpg-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\shared_3\0.2.4\shared_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\model\core_2.13\1.7.9\core_2.13-1.7.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\core_2.13\1.3.16\core_2.13-1.3.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\ws_2.13\1.3.16\ws_2.13-1.3.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\java-class-name\java-class-name_3\0.1.3\java-class-name_3-0.1.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\semanticdb-shared_2.13.15\4.9.9\semanticdb-shared_2.13.15-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\test-runner_3\0.5.5\test-runner_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-lib_3\0.10.6\os-lib_3-0.10.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\pprint_3\0.9.0\pprint_3-0.9.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-nodejs_2.13\1.4.0\scalajs-env-nodejs_2.13-1.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-sbt-test-adapter_2.13\1.17.0\scalajs-sbt-test-adapter_2.13-1.17.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\swoval\file-tree-views\2.1.12\file-tree-views-2.1.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\zip-input-stream\zip-input-stream\0.1.2\zip-input-stream-0.1.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\options_3\1.5.1\options_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\directives_3\1.5.1\directives_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala-cli-bsp\1.5.1\scala-cli-bsp-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\test-runner_3\1.5.1\test-runner_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\tasty-lib_3\1.5.1\tasty-lib_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-archiver\4.9.0\plexus-archiver-4.9.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-container-default\2.1.1\plexus-container-default-2.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\windows-ansi\windows-ansi\0.0.5\windows-ansi-0.0.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-util_2.13\2.1.13\coursier-util_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\concurrent-reference-hash-map\1.1.0\concurrent-reference-hash-map-1.1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\2.3.0\scala-xml_2.13-2.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-pprint_3\0.13.0\metaconfig-pprint_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\typelevel\paiges-core_3\0.4.4\paiges-core_3-0.4.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.14\scala-reflect-2.13.14.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-build-plan\0.4.0\jib-build-plan-0.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client\1.34.0\google-http-client-1.34.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-apache-v2\1.34.0\google-http-client-apache-v2-1.34.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-oauth2-http\0.18.0\google-auth-library-oauth2-http-0.18.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.3\jackson-datatype-jsr310-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcprov-jdk18on\1.78.1\bcprov-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcutil-jdk18on\1.78.1\bcutil-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.3.1\scala3-compiler_3-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\scalameta_2.13\4.9.9\scalameta_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\scalapb-runtime_2.13\0.11.17\scalapb-runtime_2.13-0.11.17.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\tools_3\0.5.5\tools_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\sbt\junit-interface\0.13.3\junit-interface-0.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_3\1.1.1\geny_3-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\fansi_3\0.5.0\fansi_3-0.5.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-js-envs_2.13\1.4.0\scalajs-js-envs_2.13-1.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-config_2.13\2.0.3\bloop-config_2.13-2.0.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\core_3\1.5.1\core_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\using_directives\1.1.1\using_directives-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-macros_3\1.5.1\build-macros_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bsp4j\2.1.1\bsp4j-2.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-utils\4.0.0\plexus-utils-4.0.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-io\3.4.1\plexus-io-3.4.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\iq80\snappy\snappy\0.4\snappy-0.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\tukaani\xz\1.9\xz-1.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\luben\zstd-jni\1.5.5-10\zstd-jni-1.5.5-10.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\xbean\xbean-reflect\3.7\xbean-reflect-3.7.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.18\jansi-1.18.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpclient\4.5.10\httpclient-4.5.10.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpcore\4.4.12\httpcore-4.4.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-api\0.24.0\opencensus-api-0.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-contrib-http-util\0.24.0\opencensus-contrib-http-util-0.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auto\value\auto-value-annotations\1.6.6\auto-value-annotations-1.6.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-credentials\0.18.0\google-auth-library-credentials-0.18.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-jackson2\1.32.1\google-http-client-jackson2-1.32.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.3.1\scala3-interfaces-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.3.1\tasty-core_3-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.5.0-scala-1\scala-asm-9.5.0-scala-1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.3.5\compiler-interface-1.3.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.19.0\jline-reader-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.19.0\jline-terminal-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jna\3.19.0\jline-terminal-jna-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\parsers_2.13\4.9.9\parsers_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scalap\2.13.11\scalap-2.13.11.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\lenses_2.13\0.11.17\lenses_2.13-0.11.17.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.19.6\protobuf-java-3.19.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\nir_3\0.5.5\nir_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\util_3\0.5.5\util_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-logging_2.13\1.1.1\scalajs-logging_2.13-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\unroll-annotation_2.13\0.1.12\unroll-annotation_2.13-0.1.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-rifle_2.13\2.0.2\bloop-rifle_2.13-2.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-jvm_2.13\2.1.13\coursier-jvm_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\dependency_3\0.2.3\dependency_3-0.2.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jgit\org.eclipse.jgit\6.8.0.202311291450-r\org.eclipse.jgit-6.8.0.202311291450-r.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-jsdom-nodejs_2.13\1.1.0\scalajs-env-jsdom-nodejs_2.13-1.1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.generator\0.20.1\org.eclipse.lsp4j.generator-0.20.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.jsonrpc\0.20.1\org.eclipse.lsp4j.jsonrpc-0.20.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\grpc\grpc-context\1.22.1\grpc-context-1.22.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.3.0\util-interface-1.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\trees_2.13\4.9.9\trees_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.11\scala-compiler-2.13.11.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\libdaemon_2.13\0.0.12\libdaemon_2.13-0.0.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\snailgun\snailgun-core_2.13\0.4.1-sc2\snailgun-core_2.13-0.4.1-sc2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\argonaut-shapeless_6.3_2.13\1.3.1\argonaut-shapeless_6.3_2.13-1.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier_2.13\2.1.13\coursier_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-env_2.13\2.1.13\coursier-env_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\googlecode\javaewah\JavaEWAH\1.2.3\JavaEWAH-1.2.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib\2.28.0\org.eclipse.xtend.lib-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\common_2.13\4.9.9\common_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\argonaut\argonaut_2.13\6.3.8\argonaut_2.13-6.3.8.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\chuusai\shapeless_2.13\2.3.9\shapeless_2.13-2.3.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtext\org.eclipse.xtext.xbase.lib\2.28.0\org.eclipse.xtext.xbase.lib-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib.macro\2.28.0\org.eclipse.xtend.lib.macro-2.28.0.jar, scala.cli.ScalaCli, bsp, C:\Users\artam\Desktop\FPlabs)
+2024.10.27 20:17:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.27 20:17:09 INFO  Connected to Scala CLI server v1.5.1
+2024.10.27 20:17:12 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.27 20:17:12 INFO  time: indexed workspace in 3.34s
+2024.10.27 20:17:17 INFO  Scala CLI started for C:\Users\artam\Desktop\FPlabs
+2024.10.27 20:17:17 WARN  no build tool detected in workspace 'C:\Users\artam\Desktop\FPlabs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.10.27 20:17:17 WARN  Build server is not auto-connectable.
+2024.10.27 20:17:39 WARN  no build tool detected in workspace 'C:\Users\artam\Desktop\FPlabs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.10.27 20:17:39 WARN  Build server is not auto-connectable.
+2024.10.27 20:17:40 WARN  no build tool detected in workspace 'C:\Users\artam\Desktop\FPlabs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.10.27 20:17:40 WARN  Build server is not auto-connectable.
+2024.10.27 20:17:40 WARN  no build tool detected in workspace 'C:\Users\artam\Desktop\FPlabs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.10.27 20:17:40 WARN  Build server is not auto-connectable.
+2024.10.27 20:17:44 WARN  no build tool detected in workspace 'C:\Users\artam\Desktop\FPlabs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.10.27 20:17:44 WARN  Build server is not auto-connectable.
+2024.10.27 20:18:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\.metals\dap-server.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2024.10.27 20:18:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\.metals\dap-client.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2024.10.27 20:18:11 INFO  Starting debug proxy for [helloworld]
+2024.10.27 20:18:11 INFO  Loaded expression compiler in 0 milliseconds
+2024.10.27 20:18:11 INFO  Loaded step filter in 0 milliseconds
+2024.10.27 20:18:13 INFO  Loaded all sources and classes in 1 second
+2024.10.27 20:18:13 INFO  Initialized Scala 3 decoder in 490 milliseconds
+2024.10.27 20:18:13 INFO  Trying to attach to remote debuggee VM 127.0.0.1:63170 .
+2024.10.27 20:18:13 INFO  Attaching to debuggee VM succeeded.
+2024.10.27 20:18:14 INFO  Closing debug server tcp://0.0.0.0:63168
+2024.10.27 20:18:14 INFO  Canceling debug proxy for [helloworld]
+2024.10.27 20:50:21 ERROR SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2024.10.27 20:50:21 ERROR SLF4J: Defaulting to no-operation (NOP) logger implementation
+2024.10.27 20:50:21 ERROR SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2024.10.27 20:50:23 INFO  
+2024.10.27 20:50:23 INFO  Template applied in C:\Users\artam\Desktop\.\hello-world
+2024.10.27 20:50:23 INFO  
+2024.10.27 20:50:23 INFO  time: ran 'giter8.Giter8' in 4.2s
+окт. 27, 2024 8:50:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.10.27 20:51:38 INFO  Shutting down server
+2024.10.27 20:51:38 INFO  shutting down Metals
+2024.10.27 20:51:38 INFO  Shut down connection with build server.
+2024.10.27 20:51:38 INFO  Exiting server
+2024.10.28 18:59:58 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\artam\Desktop\FPlabs\FPlab\lab1' for client Visual Studio Code 1.94.2.
+2024.10.28 18:59:58 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 18:59:58 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\hello2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:00:00 WARN  no build target for: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\hello2.scala
+2024.10.28 19:00:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\hello2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:00:00 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\hello2.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1476)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1006)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:00:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\hello2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:00:00 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.10.28 19:00:00 INFO  Running List(C:\Program Files\Java\jdk-18.0.2\bin\java.exe, -cp, C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\cli_3\1.5.1\cli_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app_3\2.1.0-M29\case-app_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-launcher_2.13\2.1.13\coursier-launcher_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-proxy-setup\2.1.13\coursier-proxy-setup-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\publish\publish_2.13\0.1.6\publish_2.13-0.1.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\jimfs\jimfs\1.3.0\jimfs-1.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\jniutils\windows-jni-utils\0.3.3\windows-jni-utils-0.3.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\plokhotnyuk\jsoniter-scala\jsoniter-scala-core_3\2.13.5.2\jsoniter-scala-core_3-2.13.5.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\libsodiumjni\0.0.4\libsodiumjni-0.0.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-typesafe-config_3\0.13.0\metaconfig-typesafe-config_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ai\kien\python-native-libs_3\0.2.4\python-native-libs_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-packager_2.13\0.1.29\scala-packager_2.13-0.1.29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\cli_3\0.2.4\cli_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-nop\2.0.16\slf4j-nop-2.0.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\client3\core_2.13\3.9.8\core_2.13-3.9.8.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.4\scala3-library_3-3.3.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-module_3\1.5.1\build-module_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\config_3\1.5.1\config_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala3-graal_3\1.5.1\scala3-graal_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\specification-level_3\1.5.1\specification-level_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\sourcecode_3\0.4.2\sourcecode_3-0.4.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-annotations_3\2.1.0-M29\case-app-annotations_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-util_3\2.1.0-M29\case-app-util_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\tmp\zip-input-stream\0.1.1\zip-input-stream-0.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.15\scala-library-2.13.15.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-cache_2.13\2.1.13\coursier-cache_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-core_2.13\2.1.13\coursier-core_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-core_3\0.13.0\metaconfig-core_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.3\config-1.4.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-collection-compat_3\2.12.0\scala-collection-compat_3-2.12.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-core\0.22.0\jib-core-0.22.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcpg-jdk18on\1.78.1\bcpg-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\shared_3\0.2.4\shared_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\model\core_2.13\1.7.9\core_2.13-1.7.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\core_2.13\1.3.16\core_2.13-1.3.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\ws_2.13\1.3.16\ws_2.13-1.3.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\java-class-name\java-class-name_3\0.1.3\java-class-name_3-0.1.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\semanticdb-shared_2.13.15\4.9.9\semanticdb-shared_2.13.15-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\test-runner_3\0.5.5\test-runner_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-lib_3\0.10.6\os-lib_3-0.10.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\pprint_3\0.9.0\pprint_3-0.9.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-nodejs_2.13\1.4.0\scalajs-env-nodejs_2.13-1.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-sbt-test-adapter_2.13\1.17.0\scalajs-sbt-test-adapter_2.13-1.17.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\swoval\file-tree-views\2.1.12\file-tree-views-2.1.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\zip-input-stream\zip-input-stream\0.1.2\zip-input-stream-0.1.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\options_3\1.5.1\options_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\directives_3\1.5.1\directives_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala-cli-bsp\1.5.1\scala-cli-bsp-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\test-runner_3\1.5.1\test-runner_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\tasty-lib_3\1.5.1\tasty-lib_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-archiver\4.9.0\plexus-archiver-4.9.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-container-default\2.1.1\plexus-container-default-2.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\windows-ansi\windows-ansi\0.0.5\windows-ansi-0.0.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-util_2.13\2.1.13\coursier-util_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\concurrent-reference-hash-map\1.1.0\concurrent-reference-hash-map-1.1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\2.3.0\scala-xml_2.13-2.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-pprint_3\0.13.0\metaconfig-pprint_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\typelevel\paiges-core_3\0.4.4\paiges-core_3-0.4.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.14\scala-reflect-2.13.14.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-build-plan\0.4.0\jib-build-plan-0.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client\1.34.0\google-http-client-1.34.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-apache-v2\1.34.0\google-http-client-apache-v2-1.34.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-oauth2-http\0.18.0\google-auth-library-oauth2-http-0.18.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.3\jackson-datatype-jsr310-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcprov-jdk18on\1.78.1\bcprov-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcutil-jdk18on\1.78.1\bcutil-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.3.1\scala3-compiler_3-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\scalameta_2.13\4.9.9\scalameta_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\scalapb-runtime_2.13\0.11.17\scalapb-runtime_2.13-0.11.17.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\tools_3\0.5.5\tools_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\sbt\junit-interface\0.13.3\junit-interface-0.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_3\1.1.1\geny_3-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\fansi_3\0.5.0\fansi_3-0.5.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-js-envs_2.13\1.4.0\scalajs-js-envs_2.13-1.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-config_2.13\2.0.3\bloop-config_2.13-2.0.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\core_3\1.5.1\core_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\using_directives\1.1.1\using_directives-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-macros_3\1.5.1\build-macros_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bsp4j\2.1.1\bsp4j-2.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-utils\4.0.0\plexus-utils-4.0.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-io\3.4.1\plexus-io-3.4.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\iq80\snappy\snappy\0.4\snappy-0.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\tukaani\xz\1.9\xz-1.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\luben\zstd-jni\1.5.5-10\zstd-jni-1.5.5-10.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\xbean\xbean-reflect\3.7\xbean-reflect-3.7.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.18\jansi-1.18.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpclient\4.5.10\httpclient-4.5.10.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpcore\4.4.12\httpcore-4.4.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-api\0.24.0\opencensus-api-0.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-contrib-http-util\0.24.0\opencensus-contrib-http-util-0.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auto\value\auto-value-annotations\1.6.6\auto-value-annotations-1.6.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-credentials\0.18.0\google-auth-library-credentials-0.18.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-jackson2\1.32.1\google-http-client-jackson2-1.32.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.3.1\scala3-interfaces-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.3.1\tasty-core_3-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.5.0-scala-1\scala-asm-9.5.0-scala-1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.3.5\compiler-interface-1.3.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.19.0\jline-reader-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.19.0\jline-terminal-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jna\3.19.0\jline-terminal-jna-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\parsers_2.13\4.9.9\parsers_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scalap\2.13.11\scalap-2.13.11.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\lenses_2.13\0.11.17\lenses_2.13-0.11.17.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.19.6\protobuf-java-3.19.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\nir_3\0.5.5\nir_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\util_3\0.5.5\util_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-logging_2.13\1.1.1\scalajs-logging_2.13-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\unroll-annotation_2.13\0.1.12\unroll-annotation_2.13-0.1.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-rifle_2.13\2.0.2\bloop-rifle_2.13-2.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-jvm_2.13\2.1.13\coursier-jvm_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\dependency_3\0.2.3\dependency_3-0.2.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jgit\org.eclipse.jgit\6.8.0.202311291450-r\org.eclipse.jgit-6.8.0.202311291450-r.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-jsdom-nodejs_2.13\1.1.0\scalajs-env-jsdom-nodejs_2.13-1.1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.generator\0.20.1\org.eclipse.lsp4j.generator-0.20.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.jsonrpc\0.20.1\org.eclipse.lsp4j.jsonrpc-0.20.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\grpc\grpc-context\1.22.1\grpc-context-1.22.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.3.0\util-interface-1.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\trees_2.13\4.9.9\trees_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.11\scala-compiler-2.13.11.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\libdaemon_2.13\0.0.12\libdaemon_2.13-0.0.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\snailgun\snailgun-core_2.13\0.4.1-sc2\snailgun-core_2.13-0.4.1-sc2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\argonaut-shapeless_6.3_2.13\1.3.1\argonaut-shapeless_6.3_2.13-1.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier_2.13\2.1.13\coursier_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-env_2.13\2.1.13\coursier-env_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\googlecode\javaewah\JavaEWAH\1.2.3\JavaEWAH-1.2.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib\2.28.0\org.eclipse.xtend.lib-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\common_2.13\4.9.9\common_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\argonaut\argonaut_2.13\6.3.8\argonaut_2.13-6.3.8.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\chuusai\shapeless_2.13\2.3.9\shapeless_2.13-2.3.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtext\org.eclipse.xtext.xbase.lib\2.28.0\org.eclipse.xtext.xbase.lib-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib.macro\2.28.0\org.eclipse.xtend.lib.macro-2.28.0.jar, scala.cli.ScalaCli, bsp, C:\Users\artam\Desktop\FPlabs\FPlab\lab1)
+2024.10.28 19:00:01 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/hello2.scala
+2024.10.28 19:00:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:00:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\hello2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:00:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\hello2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:00:03 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/hello2.scala
+2024.10.28 19:00:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:00:04 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:00:04 INFO  Connected to Scala CLI server v1.5.1
+2024.10.28 19:00:05 INFO  compiling lab1_f4dd477a3a (2 scala sources)
+2024.10.28 19:00:05 INFO  time: compiled lab1_f4dd477a3a in 90ms
+2024.10.28 19:00:05 INFO  compiling lab1_f4dd477a3a (2 scala sources)
+2024.10.28 19:00:05 INFO  time: compiled lab1_f4dd477a3a in 90ms
+2024.10.28 19:00:06 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 19:00:06 INFO  time: indexed workspace in 2.43s
+2024.10.28 19:00:07 INFO  compiling lab1_f4dd477a3a (2 scala sources)
+2024.10.28 19:00:07 INFO  time: compiled lab1_f4dd477a3a in 61ms
+2024.10.28 19:00:07 INFO  Scala CLI started for C:\Users\artam\Desktop\FPlabs\FPlab\lab1
+2024.10.28 19:00:07 WARN  no build tool detected in workspace 'C:\Users\artam\Desktop\FPlabs\FPlab\lab1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.10.28 19:00:07 WARN  Build server is not auto-connectable.
+2024.10.28 19:00:07 INFO  compiling lab1_f4dd477a3a (2 scala sources)
+2024.10.28 19:00:07 INFO  time: compiled lab1_f4dd477a3a in 63ms
+2024.10.28 19:00:07 INFO  compiling lab1_f4dd477a3a (2 scala sources)
+2024.10.28 19:00:07 INFO  time: compiled lab1_f4dd477a3a in 67ms
+2024.10.28 19:00:14 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/hello2.scala
+2024.10.28 19:00:46 INFO  Shutting down server
+2024.10.28 19:00:46 INFO  shutting down Metals
+2024.10.28 19:00:47 INFO  Shut down connection with build server.
+2024.10.28 19:00:46 INFO  Exiting server
+2024.10.28 19:08:36 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1' for client Visual Studio Code 1.94.2.
+2024.10.28 19:08:36 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 19:08:36 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:08:38 WARN  no build target for: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala
+2024.10.28 19:08:38 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:08:38 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1476)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1006)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:08:38 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:08:38 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.10.28 19:08:38 INFO  Running List(C:\Program Files\Java\jdk-18.0.2\bin\java.exe, -cp, C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\cli_3\1.5.1\cli_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app_3\2.1.0-M29\case-app_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-launcher_2.13\2.1.13\coursier-launcher_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-proxy-setup\2.1.13\coursier-proxy-setup-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\publish\publish_2.13\0.1.6\publish_2.13-0.1.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\jimfs\jimfs\1.3.0\jimfs-1.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\jniutils\windows-jni-utils\0.3.3\windows-jni-utils-0.3.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\plokhotnyuk\jsoniter-scala\jsoniter-scala-core_3\2.13.5.2\jsoniter-scala-core_3-2.13.5.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\libsodiumjni\0.0.4\libsodiumjni-0.0.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-typesafe-config_3\0.13.0\metaconfig-typesafe-config_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ai\kien\python-native-libs_3\0.2.4\python-native-libs_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-packager_2.13\0.1.29\scala-packager_2.13-0.1.29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\cli_3\0.2.4\cli_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-nop\2.0.16\slf4j-nop-2.0.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\client3\core_2.13\3.9.8\core_2.13-3.9.8.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.4\scala3-library_3-3.3.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-module_3\1.5.1\build-module_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\config_3\1.5.1\config_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala3-graal_3\1.5.1\scala3-graal_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\specification-level_3\1.5.1\specification-level_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\sourcecode_3\0.4.2\sourcecode_3-0.4.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-annotations_3\2.1.0-M29\case-app-annotations_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-util_3\2.1.0-M29\case-app-util_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\tmp\zip-input-stream\0.1.1\zip-input-stream-0.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.15\scala-library-2.13.15.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-cache_2.13\2.1.13\coursier-cache_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-core_2.13\2.1.13\coursier-core_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-core_3\0.13.0\metaconfig-core_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.3\config-1.4.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-collection-compat_3\2.12.0\scala-collection-compat_3-2.12.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-core\0.22.0\jib-core-0.22.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcpg-jdk18on\1.78.1\bcpg-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\shared_3\0.2.4\shared_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\model\core_2.13\1.7.9\core_2.13-1.7.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\core_2.13\1.3.16\core_2.13-1.3.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\ws_2.13\1.3.16\ws_2.13-1.3.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\java-class-name\java-class-name_3\0.1.3\java-class-name_3-0.1.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\semanticdb-shared_2.13.15\4.9.9\semanticdb-shared_2.13.15-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\test-runner_3\0.5.5\test-runner_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-lib_3\0.10.6\os-lib_3-0.10.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\pprint_3\0.9.0\pprint_3-0.9.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-nodejs_2.13\1.4.0\scalajs-env-nodejs_2.13-1.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-sbt-test-adapter_2.13\1.17.0\scalajs-sbt-test-adapter_2.13-1.17.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\swoval\file-tree-views\2.1.12\file-tree-views-2.1.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\zip-input-stream\zip-input-stream\0.1.2\zip-input-stream-0.1.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\options_3\1.5.1\options_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\directives_3\1.5.1\directives_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala-cli-bsp\1.5.1\scala-cli-bsp-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\test-runner_3\1.5.1\test-runner_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\tasty-lib_3\1.5.1\tasty-lib_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-archiver\4.9.0\plexus-archiver-4.9.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-container-default\2.1.1\plexus-container-default-2.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\windows-ansi\windows-ansi\0.0.5\windows-ansi-0.0.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-util_2.13\2.1.13\coursier-util_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\concurrent-reference-hash-map\1.1.0\concurrent-reference-hash-map-1.1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\2.3.0\scala-xml_2.13-2.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-pprint_3\0.13.0\metaconfig-pprint_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\typelevel\paiges-core_3\0.4.4\paiges-core_3-0.4.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.14\scala-reflect-2.13.14.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-build-plan\0.4.0\jib-build-plan-0.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client\1.34.0\google-http-client-1.34.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-apache-v2\1.34.0\google-http-client-apache-v2-1.34.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-oauth2-http\0.18.0\google-auth-library-oauth2-http-0.18.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.3\jackson-datatype-jsr310-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcprov-jdk18on\1.78.1\bcprov-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcutil-jdk18on\1.78.1\bcutil-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.3.1\scala3-compiler_3-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\scalameta_2.13\4.9.9\scalameta_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\scalapb-runtime_2.13\0.11.17\scalapb-runtime_2.13-0.11.17.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\tools_3\0.5.5\tools_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\sbt\junit-interface\0.13.3\junit-interface-0.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_3\1.1.1\geny_3-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\fansi_3\0.5.0\fansi_3-0.5.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-js-envs_2.13\1.4.0\scalajs-js-envs_2.13-1.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-config_2.13\2.0.3\bloop-config_2.13-2.0.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\core_3\1.5.1\core_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\using_directives\1.1.1\using_directives-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-macros_3\1.5.1\build-macros_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bsp4j\2.1.1\bsp4j-2.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-utils\4.0.0\plexus-utils-4.0.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-io\3.4.1\plexus-io-3.4.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\iq80\snappy\snappy\0.4\snappy-0.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\tukaani\xz\1.9\xz-1.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\luben\zstd-jni\1.5.5-10\zstd-jni-1.5.5-10.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\xbean\xbean-reflect\3.7\xbean-reflect-3.7.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.18\jansi-1.18.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpclient\4.5.10\httpclient-4.5.10.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpcore\4.4.12\httpcore-4.4.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-api\0.24.0\opencensus-api-0.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-contrib-http-util\0.24.0\opencensus-contrib-http-util-0.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auto\value\auto-value-annotations\1.6.6\auto-value-annotations-1.6.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-credentials\0.18.0\google-auth-library-credentials-0.18.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-jackson2\1.32.1\google-http-client-jackson2-1.32.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.3.1\scala3-interfaces-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.3.1\tasty-core_3-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.5.0-scala-1\scala-asm-9.5.0-scala-1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.3.5\compiler-interface-1.3.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.19.0\jline-reader-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.19.0\jline-terminal-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jna\3.19.0\jline-terminal-jna-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\parsers_2.13\4.9.9\parsers_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scalap\2.13.11\scalap-2.13.11.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\lenses_2.13\0.11.17\lenses_2.13-0.11.17.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.19.6\protobuf-java-3.19.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\nir_3\0.5.5\nir_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\util_3\0.5.5\util_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-logging_2.13\1.1.1\scalajs-logging_2.13-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\unroll-annotation_2.13\0.1.12\unroll-annotation_2.13-0.1.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-rifle_2.13\2.0.2\bloop-rifle_2.13-2.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-jvm_2.13\2.1.13\coursier-jvm_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\dependency_3\0.2.3\dependency_3-0.2.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jgit\org.eclipse.jgit\6.8.0.202311291450-r\org.eclipse.jgit-6.8.0.202311291450-r.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-jsdom-nodejs_2.13\1.1.0\scalajs-env-jsdom-nodejs_2.13-1.1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.generator\0.20.1\org.eclipse.lsp4j.generator-0.20.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.jsonrpc\0.20.1\org.eclipse.lsp4j.jsonrpc-0.20.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\grpc\grpc-context\1.22.1\grpc-context-1.22.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.3.0\util-interface-1.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\trees_2.13\4.9.9\trees_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.11\scala-compiler-2.13.11.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\libdaemon_2.13\0.0.12\libdaemon_2.13-0.0.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\snailgun\snailgun-core_2.13\0.4.1-sc2\snailgun-core_2.13-0.4.1-sc2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\argonaut-shapeless_6.3_2.13\1.3.1\argonaut-shapeless_6.3_2.13-1.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier_2.13\2.1.13\coursier_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-env_2.13\2.1.13\coursier-env_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\googlecode\javaewah\JavaEWAH\1.2.3\JavaEWAH-1.2.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib\2.28.0\org.eclipse.xtend.lib-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\common_2.13\4.9.9\common_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\argonaut\argonaut_2.13\6.3.8\argonaut_2.13-6.3.8.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\chuusai\shapeless_2.13\2.3.9\shapeless_2.13-2.3.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtext\org.eclipse.xtext.xbase.lib\2.28.0\org.eclipse.xtext.xbase.lib-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib.macro\2.28.0\org.eclipse.xtend.lib.macro-2.28.0.jar, scala.cli.ScalaCli, bsp, C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1)
+2024.10.28 19:08:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:08:41 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:08:42 INFO  Connected to Scala CLI server v1.5.1
+2024.10.28 19:08:42 INFO  compiling task1_f4dd477a3a (1 scala source)
+2024.10.28 19:08:42 INFO  time: compiled task1_f4dd477a3a in 0.39s
+2024.10.28 19:08:44 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 19:08:44 INFO  time: indexed workspace in 2.7s
+2024.10.28 19:08:58 INFO  Scala CLI started for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1
+2024.10.28 19:08:58 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:08:59 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/build.sbt
+2024.10.28 19:09:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:02 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/build.sbt
+2024.10.28 19:09:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:03 WARN  no build target for: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt
+2024.10.28 19:09:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:03 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/build.sbt
+2024.10.28 19:09:09 INFO  running 'C:\Program Files\Java\jdk-18.0.2\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.10.3 -jar C:\Users\artam\AppData\Local\Temp\metals12367030859671108982\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.10.28 19:09:10 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:09:10 INFO  [info] Updated file C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\build.properties: set sbt.version to 1.10.3
+2024.10.28 19:09:10 INFO  [info] welcome to sbt 1.10.3 (Oracle Corporation Java 18.0.2)
+2024.10.28 19:09:12 INFO  [info] loading settings for project task1-build-build from metals.sbt ...
+2024.10.28 19:09:12 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\project
+2024.10.28 19:09:15 INFO  [info] loading settings for project task1-build from metals.sbt ...
+2024.10.28 19:09:15 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project
+2024.10.28 19:09:18 INFO  [success] Generated .bloop\task1-build.json
+2024.10.28 19:09:18 INFO  [success] Total time: 3 s, completed 28 окт. 2024 г., 19:09:18
+2024.10.28 19:09:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\dap-server.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2024.10.28 19:09:20 INFO  [info] loading settings for project task1 from build.sbt ...
+2024.10.28 19:09:20 INFO  [info] set current project to hello-world (in build file:/C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/)
+2024.10.28 19:09:20 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\dap-client.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2024.10.28 19:09:20 INFO  Starting debug proxy for [helloworld]
+2024.10.28 19:09:21 INFO  Loaded expression compiler in 1 second
+2024.10.28 19:09:21 INFO  Loaded step filter in 63 milliseconds
+2024.10.28 19:09:25 INFO  Loaded all sources and classes in 3 seconds
+2024.10.28 19:09:25 INFO  Initialized Scala 3 decoder in 985 milliseconds
+2024.10.28 19:09:26 INFO  Trying to attach to remote debuggee VM 127.0.0.1:63077 .
+2024.10.28 19:09:26 INFO  Attaching to debuggee VM succeeded.
+2024.10.28 19:09:26 INFO  Canceling debug proxy for [helloworld]
+2024.10.28 19:09:26 INFO  Closing debug server tcp://0.0.0.0:63074
+2024.10.28 19:09:35 INFO  [success] Generated .bloop\task1-test.json
+2024.10.28 19:09:35 INFO  [success] Generated .bloop\task1.json
+2024.10.28 19:09:35 INFO  [success] Total time: 15 s, completed 28 окт. 2024 г., 19:09:35
+2024.10.28 19:09:35 INFO  time: ran 'sbt bloopInstall' in 26s
+2024.10.28 19:09:35 INFO  Shut down connection with build server.
+2024.10.28 19:09:35 INFO  Attempting to connect to the build server...
+2024.10.28 19:09:35 INFO  Found a Bloop server running
+2024.10.28 19:09:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:09:35 INFO  Attempting to connect to the build server...
+2024.10.28 19:09:35 INFO  Found a Bloop server running
+2024.10.28 19:09:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:09:35 INFO  time: Connected to build server in 0.91s
+2024.10.28 19:09:35 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:09:35 INFO  running doctor check
+2024.10.28 19:09:35 INFO  java targets: task1_f4dd477a3a, task1_f4dd477a3a-test, task1, task1-build, task1-test
+2024.10.28 19:09:36 WARN  3.0.0 is no longer supported in the current Metals versions, using the last known supported version 0.11.10
+окт. 28, 2024 7:09:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 58
+2024.10.28 19:10:36 WARN  3.0.0 is no longer supported in the current Metals versions, using the last known supported version 0.11.10
+2024.10.28 19:11:05 INFO  time: indexed workspace in 1m29s
+2024.10.28 19:12:05 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:12:05 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:13:18 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$NoRunOptionException$.<clinit>(DiscoveryFailures.scala:62)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$runOrTestFile$2(DebugDiscovery.scala:309)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runOrTestFile(DebugDiscovery.scala:256)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$debugDiscovery$1(DebugDiscovery.scala:176)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:13:27 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$NoRunOptionException$.<clinit>(DiscoveryFailures.scala:62)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$runOrTestFile$2(DebugDiscovery.scala:309)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runOrTestFile(DebugDiscovery.scala:256)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$debugDiscovery$1(DebugDiscovery.scala:176)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:14:01 INFO  Shutting down server
+2024.10.28 19:14:01 INFO  shutting down Metals
+2024.10.28 19:14:01 INFO  Shut down connection with build server.
+2024.10.28 19:14:01 INFO  Shut down connection with build server.
+2024.10.28 19:14:01 INFO  Exiting server
+2024.10.28 19:20:50 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1' for client Visual Studio Code 1.94.2.
+2024.10.28 19:20:50 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 19:20:50 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:20:51 WARN  no build target for: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala
+2024.10.28 19:20:51 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:20:51 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:20:51 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1476)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1006)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:20:51 INFO  Attempting to connect to the build server...
+2024.10.28 19:20:51 INFO  skipping build import with status 'Installed'
+2024.10.28 19:20:51 INFO  Attempting to connect to the build server...
+2024.10.28 19:20:51 INFO  Found a Bloop server running
+2024.10.28 19:20:51 INFO  Found a Bloop server running
+2024.10.28 19:20:51 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:20:51 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:20:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:20:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:20:51 INFO  Attempting to connect to the build server...
+2024.10.28 19:20:51 INFO  Found a Bloop server running
+2024.10.28 19:20:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:20:53 INFO  time: Connected to build server in 1.47s
+2024.10.28 19:20:53 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:20:53 INFO  time: Imported build in 0.12s
+2024.10.28 19:20:53 INFO  running doctor check
+2024.10.28 19:20:53 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:20:53 WARN  3.0.0 is no longer supported in the current Metals versions, using the last known supported version 0.11.10
+2024.10.28 19:20:55 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/helloworld.scala
+2024.10.28 19:20:59 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 19:21:01 INFO  time: indexed workspace in 7.93s
+2024.10.28 19:21:01 INFO  compiling task1 (1 scala source)
+exception caught when loading class Deprecated: java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none>
+окт. 28, 2024 7:21:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: asTerm called on not-a-Term val <none>
+java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none>
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+	at dotty.tools.dotc.core.Symbols$Symbol.asTerm(Symbols.scala:163)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:492)
+	at dotty.tools.dotc.core.Annotations$Annotation$.apply(Annotations.scala:153)
+	at dotty.tools.dotc.core.Annotations$Annotation$.apply(Annotations.scala:144)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttribute$6(ClassfileParser.scala:734)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttributes$$anonfun$1(ClassfileParser.scala:792)
+	at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)
+	at scala.collection.immutable.Range.foreach(Range.scala:190)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttributes(ClassfileParser.scala:792)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseMember(ClassfileParser.scala:232)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseClass$$anonfun$2(ClassfileParser.scala:183)
+	at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)
+	at scala.collection.immutable.Range.foreach(Range.scala:190)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseClass(ClassfileParser.scala:183)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.$anonfun$1(ClassfileParser.scala:87)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.run(ClassfileParser.scala:82)
+	at dotty.tools.dotc.core.ClassfileLoader.load(SymbolLoaders.scala:414)
+	at dotty.tools.dotc.core.ClassfileLoader.doComplete(SymbolLoaders.scala:409)
+	at dotty.tools.dotc.core.SymbolLoader.complete(SymbolLoaders.scala:343)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:167)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeOnce(SymDenotations.scala:361)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.isAbsent(SymDenotations.scala:571)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.isAccessibleFrom(SymDenotations.scala:870)
+	at scala.meta.internal.pc.IndexedContext$.accessibleSymbols$1$$anonfun$1(IndexedContext.scala:145)
+	at scala.collection.immutable.List.filter(List.scala:559)
+	at scala.meta.internal.pc.IndexedContext$.accessibleSymbols$2(IndexedContext.scala:145)
+	at scala.meta.internal.pc.IndexedContext$.allAccessibleSymbols$1(IndexedContext.scala:163)
+	at scala.meta.internal.pc.IndexedContext$.fromImportInfo$1(IndexedContext.scala:184)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:201)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:99)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:48)
+
+2024.10.28 19:21:01 INFO  time: compiled task1 in 0.19s
+2024.10.28 19:21:01 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/helloworld.scala
+2024.10.28 19:21:01 INFO  compiling task1 (1 scala source)
+2024.10.28 19:21:01 INFO  time: compiled task1 in 0.1s
+exception caught when loading class Deprecated: java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none>
+2024.10.28 19:21:01 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/helloworld.scalaокт. 28, 2024 7:21:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: asTerm called on not-a-Term val <none>
+java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none>
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+	at dotty.tools.dotc.core.Symbols$Symbol.asTerm(Symbols.scala:163)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:492)
+	at dotty.tools.dotc.core.Annotations$Annotation$.apply(Annotations.scala:153)
+	at dotty.tools.dotc.core.Annotations$Annotation$.apply(Annotations.scala:144)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttribute$6(ClassfileParser.scala:734)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttributes$$anonfun$1(ClassfileParser.scala:792)
+	at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)
+	at scala.collection.immutable.Range.foreach(Range.scala:190)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttributes(ClassfileParser.scala:792)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseMember(ClassfileParser.scala:232)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseClass$$anonfun$2(ClassfileParser.scala:183)
+	at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)
+	at scala.collection.immutable.Range.foreach(Range.scala:190)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseClass(ClassfileParser.scala:183)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.$anonfun$1(ClassfileParser.scala:87)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.run(ClassfileParser.scala:82)
+	at dotty.tools.dotc.core.ClassfileLoader.load(SymbolLoaders.scala:414)
+	at dotty.tools.dotc.core.ClassfileLoader.doComplete(SymbolLoaders.scala:409)
+	at dotty.tools.dotc.core.SymbolLoader.complete(SymbolLoaders.scala:343)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:167)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeOnce(SymDenotations.scala:361)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.isAbsent(SymDenotations.scala:571)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.isAccessibleFrom(SymDenotations.scala:870)
+	at scala.meta.internal.pc.IndexedContext$.accessibleSymbols$1$$anonfun$1(IndexedContext.scala:145)
+	at scala.collection.immutable.List.filter(List.scala:559)
+	at scala.meta.internal.pc.IndexedContext$.accessibleSymbols$2(IndexedContext.scala:145)
+	at scala.meta.internal.pc.IndexedContext$.allAccessibleSymbols$1(IndexedContext.scala:163)
+	at scala.meta.internal.pc.IndexedContext$.fromImportInfo$1(IndexedContext.scala:184)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:201)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:99)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:48)
+
+
+2024.10.28 19:21:12 ERROR Timeout waiting for 'build/initialize' response
+2024.10.28 19:21:12 WARN  Retrying connection to the build server Bloop
+2024.10.28 19:21:12 INFO  Found a Bloop server running
+2024.10.28 19:21:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:21:12 INFO  Attempting to connect to the build server...
+2024.10.28 19:21:12 INFO  Found a Bloop server running
+2024.10.28 19:21:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:21:12 INFO  time: Connected to build server in 21s
+2024.10.28 19:21:12 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:21:12 INFO  running doctor check
+2024.10.28 19:21:12 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:21:15 INFO  time: indexed workspace in 2.17s
+exception caught when loading class Deprecated: java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none>
+окт. 28, 2024 7:21:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: asTerm called on not-a-Term val <none>
+java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none>
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+	at dotty.tools.dotc.core.Symbols$Symbol.asTerm(Symbols.scala:163)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:492)
+	at dotty.tools.dotc.core.Annotations$Annotation$.apply(Annotations.scala:153)
+	at dotty.tools.dotc.core.Annotations$Annotation$.apply(Annotations.scala:144)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttribute$6(ClassfileParser.scala:734)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttributes$$anonfun$1(ClassfileParser.scala:792)
+	at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)
+	at scala.collection.immutable.Range.foreach(Range.scala:190)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttributes(ClassfileParser.scala:792)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseMember(ClassfileParser.scala:232)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseClass$$anonfun$2(ClassfileParser.scala:183)
+	at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)
+	at scala.collection.immutable.Range.foreach(Range.scala:190)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseClass(ClassfileParser.scala:183)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.$anonfun$1(ClassfileParser.scala:87)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.run(ClassfileParser.scala:82)
+	at dotty.tools.dotc.core.ClassfileLoader.load(SymbolLoaders.scala:414)
+	at dotty.tools.dotc.core.ClassfileLoader.doComplete(SymbolLoaders.scala:409)
+	at dotty.tools.dotc.core.SymbolLoader.complete(SymbolLoaders.scala:343)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:167)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeOnce(SymDenotations.scala:361)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.isAbsent(SymDenotations.scala:571)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.isAccessibleFrom(SymDenotations.scala:870)
+	at scala.meta.internal.pc.IndexedContext$.accessibleSymbols$1$$anonfun$1(IndexedContext.scala:145)
+	at scala.collection.immutable.List.filter(List.scala:559)
+	at scala.meta.internal.pc.IndexedContext$.accessibleSymbols$2(IndexedContext.scala:145)
+	at scala.meta.internal.pc.IndexedContext$.allAccessibleSymbols$1(IndexedContext.scala:163)
+	at scala.meta.internal.pc.IndexedContext$.fromImportInfo$1(IndexedContext.scala:184)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:201)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:99)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:48)
+
+2024.10.28 19:21:18 INFO  compiling task1 (1 scala source)
+2024.10.28 19:21:18 INFO  time: compiled task1 in 93ms
+окт. 28, 2024 7:21:20 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.10.28 19:21:20 INFO  time: code lens generation in 1.25s
+2024.10.28 19:21:20 INFO  time: code lens generation in 2.08s
+окт. 28, 2024 7:21:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52
+2024.10.28 19:21:24 INFO  running 'C:\Program Files\Java\jdk-18.0.2\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\artam\AppData\Local\Temp\metals2299882372239047258\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.10.28 19:21:25 INFO  [info] welcome to sbt 1.10.3 (Oracle Corporation Java 18.0.2)
+2024.10.28 19:21:25 INFO  [info] loading settings for project task1-build-build from metals.sbt ...
+2024.10.28 19:21:26 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\project
+2024.10.28 19:21:26 INFO  [info] loading settings for project task1-build from metals.sbt ...
+2024.10.28 19:21:26 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project
+2024.10.28 19:21:30 INFO  [success] Generated .bloop\task1-build.json
+2024.10.28 19:21:30 INFO  [success] Total time: 3 s, completed 28 окт. 2024 г., 19:21:30
+2024.10.28 19:21:32 INFO  [info] loading settings for project task1 from build.sbt ...
+2024.10.28 19:21:32 INFO  [info] set current project to hello-world (in build file:/C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/)
+2024.10.28 19:21:32 INFO  [success] Generated .bloop\task1-test.json
+2024.10.28 19:21:32 INFO  [success] Generated .bloop\task1.json
+2024.10.28 19:21:32 INFO  [success] Total time: 1 s, completed 28 окт. 2024 г., 19:21:33
+2024.10.28 19:21:33 INFO  time: ran 'sbt bloopInstall' in 9.03s
+2024.10.28 19:21:33 INFO  Disconnecting from Bloop session...
+2024.10.28 19:21:33 INFO  Shut down connection with build server.
+2024.10.28 19:21:33 INFO  Shut down connection with build server.
+2024.10.28 19:21:33 INFO  Attempting to connect to the build server...
+2024.10.28 19:21:33 INFO  Found a Bloop server running
+2024.10.28 19:21:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:21:33 INFO  Attempting to connect to the build server...
+2024.10.28 19:21:33 INFO  Found a Bloop server running
+2024.10.28 19:21:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:21:33 INFO  time: Connected to build server in 0.92s
+2024.10.28 19:21:33 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:21:34 INFO  running doctor check
+2024.10.28 19:21:34 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:21:36 INFO  time: indexed workspace in 2.49s
+2024.10.28 19:21:36 INFO  compiling task1 (1 scala source)
+2024.10.28 19:21:38 INFO  time: compiled task1 in 1.7s
+2024.10.28 19:21:38 INFO  compiling task1-test (1 scala source)
+2024.10.28 19:21:38 INFO  time: compiled task1-test in 0.31s
+2024.10.28 19:21:41 INFO  running 'C:\Program Files\Java\jdk-18.0.2\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\artam\AppData\Local\Temp\metals10005856751670658559\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.10.28 19:21:43 INFO  [info] welcome to sbt 1.10.3 (Oracle Corporation Java 18.0.2)
+2024.10.28 19:21:43 INFO  [info] loading settings for project task1-build-build from metals.sbt ...
+2024.10.28 19:21:44 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\project
+2024.10.28 19:21:44 INFO  [info] loading settings for project task1-build from metals.sbt ...
+2024.10.28 19:21:44 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project
+2024.10.28 19:21:48 INFO  [success] Generated .bloop\task1-build.json
+2024.10.28 19:21:48 INFO  [success] Total time: 3 s, completed 28 окт. 2024 г., 19:21:48
+2024.10.28 19:21:48 INFO  [info] loading settings for project task1 from build.sbt ...
+2024.10.28 19:21:48 INFO  [info] set current project to hello-world (in build file:/C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/)
+2024.10.28 19:21:49 INFO  [success] Generated .bloop\task1.json
+2024.10.28 19:21:49 INFO  [success] Generated .bloop\task1-test.json
+2024.10.28 19:21:49 INFO  [success] Total time: 0 s, completed 28 окт. 2024 г., 19:21:49
+2024.10.28 19:21:49 INFO  time: ran 'sbt bloopInstall' in 7.35s
+2024.10.28 19:21:49 INFO  Disconnecting from Bloop session...
+2024.10.28 19:21:49 INFO  Shut down connection with build server.
+2024.10.28 19:21:49 INFO  Shut down connection with build server.
+2024.10.28 19:21:49 INFO  Attempting to connect to the build server...
+2024.10.28 19:21:49 INFO  Found a Bloop server running
+2024.10.28 19:21:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:21:49 INFO  Attempting to connect to the build server...
+2024.10.28 19:21:49 INFO  Found a Bloop server running
+2024.10.28 19:21:50 INFO  Attempting to connect to the build server...
+2024.10.28 19:21:50 INFO  Found a Bloop server running
+2024.10.28 19:21:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:21:50 INFO  time: Connected to build server in 0.9s
+2024.10.28 19:21:50 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:21:50 INFO  running doctor check
+2024.10.28 19:21:50 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:21:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:21:50 INFO  Attempting to connect to the build server...
+2024.10.28 19:21:50 INFO  Found a Bloop server running
+2024.10.28 19:21:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:21:50 INFO  time: Connected to build server in 0.95s
+2024.10.28 19:21:50 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:21:51 INFO  running doctor check
+2024.10.28 19:21:51 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:21:52 INFO  time: indexed workspace in 2.11s
+2024.10.28 19:21:53 INFO  time: indexed workspace in 2.42s
+2024.10.28 19:21:53 INFO  time: compiled task1 in 12ms
+2024.10.28 19:21:55 INFO  Disconnecting from Bloop session...
+2024.10.28 19:21:55 INFO  Shut down connection with build server.
+2024.10.28 19:21:55 INFO  Shut down connection with build server.
+2024.10.28 19:21:55 INFO  Attempting to connect to the build server...
+2024.10.28 19:21:55 INFO  No running Bloop server found, starting one.
+2024.10.28 19:21:56 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:21:56 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:21:56 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:21:56 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:21:56 INFO  No running Bloop server found, starting one.
+2024.10.28 19:21:56 INFO  No running Bloop server found, starting one.
+2024.10.28 19:21:56 INFO  No running Bloop server found, starting one.
+2024.10.28 19:21:56 INFO  No running Bloop server found, starting one.
+2024.10.28 19:21:56 INFO  Attempting to connect to the build server...
+2024.10.28 19:21:56 INFO  No running Bloop server found, starting one.
+2024.10.28 19:21:56 INFO  Attempting to connect to the build server...
+2024.10.28 19:21:56 INFO  No running Bloop server found, starting one.
+2024.10.28 19:21:57 INFO  Starting compilation server
+2024.10.28 19:21:58 INFO  Starting compilation server
+2024.10.28 19:21:58 INFO  Starting compilation server
+2024.10.28 19:21:58 INFO  Starting compilation server
+2024.10.28 19:21:58 INFO  Starting compilation server
+2024.10.28 19:21:58 INFO  Starting compilation server
+2024.10.28 19:21:58 INFO  Starting compilation server
+2024.10.28 19:21:58 INFO  running 'C:\Program Files\Java\jdk-18.0.2\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\artam\AppData\Local\Temp\metals11905804481550066156\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.10.28 19:22:00 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:22:00 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:22:00 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:22:00 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:22:00 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:22:00 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:22:00 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:22:00 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:22:00 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:22:00 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:22:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:22:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:22:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:22:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:22:02 INFO  [info] welcome to sbt 1.10.3 (Oracle Corporation Java 18.0.2)
+2024.10.28 19:22:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:22:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:22:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:22:02 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:22:02 INFO  Found a Bloop server running
+2024.10.28 19:22:02 INFO  [info] loading settings for project task1-build-build from metals.sbt ...
+2024.10.28 19:22:03 INFO  Disconnecting from Bloop session...
+2024.10.28 19:22:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:22:03 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:22:03 INFO  Shut down connection with build server.
+2024.10.28 19:22:02 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2024.10.28 19:22:03 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2024.10.28 19:22:03 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\project
+2024.10.28 19:22:03 INFO  [info] loading settings for project task1-build from metals.sbt ...
+2024.10.28 19:22:03 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project
+2024.10.28 19:22:05 INFO  Shutting down server
+2024.10.28 19:22:05 INFO  shutting down Metals
+2024.10.28 19:22:05 INFO  Exiting server
+2024.10.28 19:22:45 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1' for client Visual Studio Code 1.94.2.
+2024.10.28 19:22:45 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 19:22:45 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:22:47 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:22:47 INFO  Attempting to connect to the build server...
+2024.10.28 19:22:47 INFO  Found a Bloop server running
+2024.10.28 19:22:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:22:48 INFO  Attempting to connect to the build server...
+2024.10.28 19:22:48 INFO  Found a Bloop server running
+2024.10.28 19:22:48 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/build.sbt
+2024.10.28 19:22:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:22:48 INFO  time: Connected to build server in 1.44s
+2024.10.28 19:22:48 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:22:49 INFO  running doctor check
+2024.10.28 19:22:49 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:22:49 INFO  running 'C:\Program Files\Java\jdk-18.0.2\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\artam\AppData\Local\Temp\metals16546643415167945932\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.10.28 19:22:51 INFO  [info] welcome to sbt 1.10.3 (Oracle Corporation Java 18.0.2)
+2024.10.28 19:22:52 INFO  [info] loading settings for project task1-build-build from metals.sbt ...
+2024.10.28 19:22:52 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\project
+2024.10.28 19:22:53 INFO  [info] loading settings for project task1-build from metals.sbt ...
+2024.10.28 19:22:53 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project
+2024.10.28 19:22:56 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+окт. 28, 2024 7:22:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2024.10.28 19:22:58 INFO  [success] Generated .bloop\task1-build.json
+2024.10.28 19:22:58 INFO  [success] Total time: 5 s, completed 28 окт. 2024 г., 19:22:59
+2024.10.28 19:22:59 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$SemanticDbNotFoundException$.<clinit>(DiscoveryFailures.scala:66)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$runOrTestFile$1(DebugDiscovery.scala:255)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runOrTestFile(DebugDiscovery.scala:256)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$debugDiscovery$1(DebugDiscovery.scala:176)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:22:59 INFO  [info] loading settings for project task1 from build.sbt ...
+2024.10.28 19:22:59 INFO  [info] set current project to hello-world (in build file:/C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/)
+2024.10.28 19:23:01 INFO  [success] Generated .bloop\task1.json
+2024.10.28 19:23:01 INFO  [success] Generated .bloop\task1-test.json
+2024.10.28 19:23:01 INFO  [success] Total time: 0 s, completed 28 окт. 2024 г., 19:23:01
+2024.10.28 19:23:01 INFO  time: ran 'sbt bloopInstall' in 11s
+2024.10.28 19:23:01 INFO  Disconnecting from Bloop session...
+2024.10.28 19:23:01 INFO  Shut down connection with build server.
+2024.10.28 19:23:01 INFO  Shut down connection with build server.
+2024.10.28 19:23:01 INFO  Attempting to connect to the build server...
+2024.10.28 19:23:01 INFO  Found a Bloop server running
+2024.10.28 19:23:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:23:02 INFO  Attempting to connect to the build server...
+2024.10.28 19:23:02 INFO  Found a Bloop server running
+2024.10.28 19:23:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:23:02 INFO  time: Connected to build server in 1.22s
+2024.10.28 19:23:02 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:23:02 INFO  running doctor check
+2024.10.28 19:23:02 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:23:06 INFO  time: indexed workspace in 17s
+2024.10.28 19:23:06 INFO  time: indexed workspace in 3.84s
+2024.10.28 19:23:09 INFO  time: code lens generation in 2.79s
+2024.10.28 19:23:09 INFO  time: code lens generation in 2.79s
+2024.10.28 19:24:04 INFO  skipping build import with status 'Installed'
+2024.10.28 19:24:04 INFO  Disconnecting from Bloop session...
+2024.10.28 19:24:04 INFO  Shut down connection with build server.
+2024.10.28 19:24:04 INFO  Shut down connection with build server.
+2024.10.28 19:24:04 INFO  Attempting to connect to the build server...
+2024.10.28 19:24:04 INFO  Found a Bloop server running
+2024.10.28 19:24:04 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:24:04 INFO  Scala test classes not supported by server
+2024.10.28 19:24:04 INFO  Scala main classes not supported by server
+2024.10.28 19:24:04 ERROR java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at scala.meta.internal.metals.debug.SourcePathAdapter$.apply(SourcePathAdapter.scala:66)
+	at scala.meta.internal.metals.debug.MetalsDebugAdapter$.apply(MetalsDebugAdapter.scala:41)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$start$16(DebugProvider.scala:287)
+	at scala.meta.internal.metals.debug.DebugServer.loop$1(DebugServer.scala:21)
+	at scala.meta.internal.metals.debug.DebugServer.listen$lzycompute(DebugServer.scala:34)
+	at scala.meta.internal.metals.debug.DebugServer.listen(DebugServer.scala:19)
+	at scala.meta.internal.metals.debug.DebugProvider.start(DebugProvider.scala:312)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$start$8(DebugProvider.scala:150)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:24:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:24:04 INFO  Attempting to connect to the build server...
+2024.10.28 19:24:04 INFO  Found a Bloop server running
+2024.10.28 19:24:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:24:04 INFO  time: Connected to build server in 0.93s
+2024.10.28 19:24:04 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:24:05 INFO  running doctor check
+2024.10.28 19:24:05 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:24:08 INFO  time: indexed workspace in 2.98s
+окт. 28, 2024 7:24:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+окт. 28, 2024 7:24:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+окт. 28, 2024 7:24:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+2024.10.28 19:24:12 INFO  skipping build import with status 'Installed'
+2024.10.28 19:24:12 INFO  Disconnecting from Bloop session...
+2024.10.28 19:24:12 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:24:12 INFO  Shut down connection with build server.
+2024.10.28 19:24:12 ERROR java.lang.IllegalStateException: Build server unavailable
+	at scala.meta.internal.metals.debug.DebugProvider.BuildServerUnavailableError$lzycompute(DebugProvider.scala:760)
+	at scala.meta.internal.metals.debug.DebugProvider.BuildServerUnavailableError(DebugProvider.scala:759)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$start$3(DebugProvider.scala:136)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$start$2(DebugProvider.scala:137)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:24:12 INFO  Shut down connection with build server.
+2024.10.28 19:24:12 INFO  Attempting to connect to the build server...
+2024.10.28 19:24:12 INFO  Found a Bloop server running
+2024.10.28 19:24:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:24:12 INFO  Attempting to connect to the build server...
+2024.10.28 19:24:12 INFO  Found a Bloop server running
+2024.10.28 19:24:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:24:12 INFO  time: Connected to build server in 0.91s
+2024.10.28 19:24:12 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:24:13 INFO  running doctor check
+2024.10.28 19:24:13 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:24:15 INFO  time: indexed workspace in 2.22s
+2024.10.28 19:24:15 INFO  time: compiled task1 in 21ms
+2024.10.28 19:24:26 INFO  skipping build import with status 'Installed'
+2024.10.28 19:24:26 INFO  Disconnecting from Bloop session...
+2024.10.28 19:24:26 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:24:26 INFO  Shut down connection with build server.
+2024.10.28 19:24:26 INFO  Shut down connection with build server.
+2024.10.28 19:24:26 INFO  Scala main classes not supported by server
+2024.10.28 19:24:26 INFO  Attempting to connect to the build server...
+2024.10.28 19:24:26 INFO  Found a Bloop server running
+2024.10.28 19:24:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:24:26 INFO  Attempting to connect to the build server...
+2024.10.28 19:24:26 INFO  Found a Bloop server running
+2024.10.28 19:24:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:24:26 INFO  time: Connected to build server in 0.94s
+2024.10.28 19:24:26 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:24:27 INFO  running doctor check
+2024.10.28 19:24:27 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:24:29 INFO  time: indexed workspace in 2.49s
+2024.10.28 19:24:29 INFO  time: compiled task1 in 16ms
+2024.10.28 19:24:30 INFO  skipping build import with status 'Installed'
+2024.10.28 19:24:30 INFO  Disconnecting from Bloop session...
+2024.10.28 19:24:30 INFO  Shut down connection with build server.
+2024.10.28 19:24:30 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:24:30 INFO  Shut down connection with build server.
+2024.10.28 19:24:30 INFO  Scala test classes not supported by server
+2024.10.28 19:24:30 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:24:30 INFO  Attempting to connect to the build server...
+2024.10.28 19:24:30 INFO  Found a Bloop server running
+2024.10.28 19:24:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:24:30 INFO  Attempting to connect to the build server...
+2024.10.28 19:24:30 INFO  Found a Bloop server running
+2024.10.28 19:24:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:24:30 INFO  time: Connected to build server in 0.94s
+2024.10.28 19:24:30 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:24:31 INFO  running doctor check
+2024.10.28 19:24:31 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:24:33 INFO  time: indexed workspace in 2.24s
+2024.10.28 19:24:33 INFO  time: compiled task1 in 25ms
+2024.10.28 19:25:26 ERROR java.util.concurrent.TimeoutException: Future timed out after [60 seconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+окт. 28, 2024 7:25:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:191)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:160)
+	at scala.meta.internal.metals.utils.RequestRegistry.$anonfun$register$5(RequestRegistry.scala:78)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.RequestRegistry.$anonfun$register$4(RequestRegistry.scala:78)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$5(BuildServerConnection.scala:561)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$5$adapted(BuildServerConnection.scala:560)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFullyImpl(ChannelOutputStream.java:60)
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:79)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:122)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2024.10.28 19:25:26 INFO  Failed to run request with params DebugSessionAddress
+2024.10.28 19:25:30 ERROR java.util.concurrent.TimeoutException: Future timed out after [60 seconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+окт. 28, 2024 7:25:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:191)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:160)
+	at scala.meta.internal.metals.utils.RequestRegistry.$anonfun$register$5(RequestRegistry.scala:78)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.RequestRegistry.$anonfun$register$4(RequestRegistry.scala:78)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$5(BuildServerConnection.scala:561)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$5$adapted(BuildServerConnection.scala:560)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFullyImpl(ChannelOutputStream.java:60)
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:79)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:122)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2024.10.28 19:25:30 INFO  Failed to run request with params DebugSessionAddress
+2024.10.28 19:25:41 INFO  skipping build import with status 'Installed'
+2024.10.28 19:25:41 INFO  Disconnecting from Bloop session...
+2024.10.28 19:25:41 INFO  Shut down connection with build server.
+2024.10.28 19:25:41 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:25:41 ERROR java.lang.IllegalStateException: Build server unavailable
+	at scala.meta.internal.metals.debug.DebugProvider.BuildServerUnavailableError$lzycompute(DebugProvider.scala:760)
+	at scala.meta.internal.metals.debug.DebugProvider.BuildServerUnavailableError(DebugProvider.scala:759)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$start$3(DebugProvider.scala:136)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$start$2(DebugProvider.scala:137)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:25:41 INFO  Shut down connection with build server.
+2024.10.28 19:25:41 INFO  Scala main classes not supported by server
+2024.10.28 19:25:41 INFO  Scala test classes not supported by server
+2024.10.28 19:25:41 INFO  Attempting to connect to the build server...
+2024.10.28 19:25:41 INFO  Found a Bloop server running
+2024.10.28 19:25:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:25:41 INFO  Attempting to connect to the build server...
+2024.10.28 19:25:41 INFO  Found a Bloop server running
+2024.10.28 19:25:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:25:41 INFO  time: Connected to build server in 0.87s
+2024.10.28 19:25:41 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:25:41 INFO  running doctor check
+2024.10.28 19:25:41 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:25:45 INFO  time: indexed workspace in 2.59s
+2024.10.28 19:25:45 INFO  time: compiled task1 in 30ms
+2024.10.28 19:25:58 INFO  Shutting down server
+2024.10.28 19:25:58 INFO  shutting down Metals
+2024.10.28 19:25:58 INFO  Shut down connection with build server.
+2024.10.28 19:25:58 INFO  Shut down connection with build server.
+2024.10.28 19:25:58 INFO  Exiting server
+2024.10.28 19:26:15 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1' for client Visual Studio Code 1.94.2.
+2024.10.28 19:26:15 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 19:26:15 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:26:16 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\helloworld.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:26:16 INFO  Attempting to connect to the build server...
+2024.10.28 19:26:16 INFO  Found a Bloop server running
+2024.10.28 19:26:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:26:17 INFO  Attempting to connect to the build server...
+2024.10.28 19:26:17 INFO  Found a Bloop server running
+2024.10.28 19:26:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:26:18 INFO  time: Connected to build server in 1.29s
+2024.10.28 19:26:18 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:26:17 INFO  running doctor check
+2024.10.28 19:26:17 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:26:20 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 19:26:22 INFO  time: indexed workspace in 3.93s
+2024.10.28 19:26:24 INFO  running 'C:\Program Files\Java\jdk-18.0.2\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\artam\AppData\Local\Temp\metals17698901262634371204\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.10.28 19:26:25 INFO  [info] welcome to sbt 1.10.3 (Oracle Corporation Java 18.0.2)
+2024.10.28 19:26:25 INFO  [info] loading settings for project task1-build-build from metals.sbt ...
+2024.10.28 19:26:27 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\project
+2024.10.28 19:26:27 INFO  [info] loading settings for project task1-build from metals.sbt ...
+2024.10.28 19:26:27 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project
+2024.10.28 19:26:30 INFO  [success] Generated .bloop\task1-build.json
+2024.10.28 19:26:30 INFO  [success] Total time: 2 s, completed 28 окт. 2024 г., 19:26:30
+2024.10.28 19:26:30 INFO  [info] loading settings for project task1 from build.sbt ...
+2024.10.28 19:26:30 INFO  [info] set current project to hello-world (in build file:/C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/)
+2024.10.28 19:26:30 INFO  [success] Generated .bloop\task1.json
+2024.10.28 19:26:30 INFO  [success] Generated .bloop\task1-test.json
+2024.10.28 19:26:30 INFO  [success] Total time: 0 s, completed 28 окт. 2024 г., 19:26:31
+2024.10.28 19:26:31 INFO  time: ran 'sbt bloopInstall' in 6.57s
+2024.10.28 19:26:31 INFO  Disconnecting from Bloop session...
+2024.10.28 19:26:31 INFO  Shut down connection with build server.
+2024.10.28 19:26:31 INFO  Shut down connection with build server.
+2024.10.28 19:26:31 INFO  Attempting to connect to the build server...
+2024.10.28 19:26:31 INFO  Found a Bloop server running
+2024.10.28 19:26:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:26:31 INFO  Attempting to connect to the build server...
+2024.10.28 19:26:31 INFO  Found a Bloop server running
+2024.10.28 19:26:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:26:32 INFO  time: Connected to build server in 0.9s
+2024.10.28 19:26:32 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:26:31 INFO  running doctor check
+2024.10.28 19:26:31 INFO  java targets: task1, task1-build, task1-test
+2024.10.28 19:26:34 INFO  time: indexed workspace in 2.15s
+2024.10.28 19:26:43 INFO  Shutting down server
+2024.10.28 19:26:43 INFO  shutting down Metals
+2024.10.28 19:26:43 INFO  Shut down connection with build server.
+2024.10.28 19:26:43 INFO  Shut down connection with build server.
+2024.10.28 19:26:43 INFO  Exiting server

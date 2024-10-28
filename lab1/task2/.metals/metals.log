@@ -1,0 +1,787 @@
+2024.10.28 19:29:14 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2' for client Visual Studio Code 1.94.2.
+2024.10.28 19:29:14 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 19:29:16 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:29:16 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:29:17 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task2/build.sbt
+2024.10.28 19:29:28 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:29:28 INFO  running 'C:\Program Files\Java\jdk-18.0.2\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.10.3 -jar C:\Users\artam\AppData\Local\Temp\metals9259802508145816084\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.10.28 19:29:30 INFO  [info] Updated file C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\build.properties: set sbt.version to 1.10.3
+2024.10.28 19:29:30 INFO  [info] welcome to sbt 1.10.3 (Oracle Corporation Java 18.0.2)
+2024.10.28 19:29:32 INFO  [info] loading settings for project task2-build-build from metals.sbt ...
+2024.10.28 19:29:32 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\project
+2024.10.28 19:29:33 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\hello2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:29:33 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\hello2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:29:33 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\hello2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:29:35 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\hello2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:29:35 INFO  [info] loading settings for project task2-build from metals.sbt ...
+2024.10.28 19:29:35 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project
+2024.10.28 19:29:40 INFO  [success] Generated .bloop\task2-build.json
+2024.10.28 19:29:40 INFO  [success] Total time: 4 s, completed 28 окт. 2024 г., 19:29:40
+2024.10.28 19:29:42 INFO  [info] loading settings for project task2 from build.sbt ...
+2024.10.28 19:29:42 INFO  [info] set current project to hello-world (in build file:/C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task2/)
+2024.10.28 19:29:44 INFO  [success] Generated .bloop\task2.json
+2024.10.28 19:29:44 INFO  [success] Generated .bloop\task2-test.json
+2024.10.28 19:29:44 INFO  [success] Total time: 1 s, completed 28 окт. 2024 г., 19:29:44
+2024.10.28 19:29:44 INFO  time: ran 'sbt bloopInstall' in 15s
+2024.10.28 19:29:44 INFO  Attempting to connect to the build server...
+2024.10.28 19:29:44 INFO  Found a Bloop server running
+2024.10.28 19:29:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:29:44 INFO  Attempting to connect to the build server...
+2024.10.28 19:29:44 INFO  Found a Bloop server running
+2024.10.28 19:29:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:29:44 INFO  time: Connected to build server in 1.17s
+2024.10.28 19:29:44 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:29:45 INFO  running doctor check
+2024.10.28 19:29:45 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:29:47 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 19:29:52 INFO  time: indexed workspace in 7.35s
+2024.10.28 19:29:56 INFO  compiling task2 (1 scala source)
+2024.10.28 19:29:56 INFO  time: compiled task2 in 0.2s
+2024.10.28 19:29:56 INFO  compiling task2 (1 scala source)
+2024.10.28 19:29:56 INFO  time: compiled task2 in 0.74s
+2024.10.28 19:29:58 INFO  time: code lens generation in 1.67s
+2024.10.28 19:29:58 INFO  time: code lens generation in 1.67s
+2024.10.28 19:30:01 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:53)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:92)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1509)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:818)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:30:36 INFO  Disconnecting from Bloop session...
+2024.10.28 19:30:36 INFO  Shut down connection with build server.
+2024.10.28 19:30:36 INFO  Shut down connection with build server.
+2024.10.28 19:30:36 INFO  Attempting to connect to the build server...
+2024.10.28 19:30:36 INFO  Found a Bloop server running
+2024.10.28 19:30:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:30:37 INFO  Attempting to connect to the build server...
+2024.10.28 19:30:37 INFO  Found a Bloop server running
+2024.10.28 19:30:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:30:36 INFO  time: Connected to build server in 0.85s
+2024.10.28 19:30:36 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:30:36 INFO  running doctor check
+2024.10.28 19:30:36 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:30:37 INFO  Disconnecting from Bloop session...
+2024.10.28 19:30:37 INFO  Shut down connection with build server.
+2024.10.28 19:30:37 INFO  Shut down connection with build server.
+2024.10.28 19:30:37 INFO  Attempting to connect to the build server...
+2024.10.28 19:30:37 INFO  Found a Bloop server running
+2024.10.28 19:30:37 INFO  Attempting to connect to the build server...
+2024.10.28 19:30:37 INFO  Found a Bloop server running
+2024.10.28 19:30:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:30:38 INFO  Attempting to connect to the build server...
+2024.10.28 19:30:38 INFO  Found a Bloop server running
+2024.10.28 19:30:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:30:38 INFO  Attempting to connect to the build server...
+2024.10.28 19:30:38 INFO  Found a Bloop server running
+2024.10.28 19:30:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:30:37 INFO  time: Connected to build server in 0.94s
+2024.10.28 19:30:37 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:30:38 INFO  running doctor check
+2024.10.28 19:30:38 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:30:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:30:38 INFO  time: Connected to build server in 0.98s
+2024.10.28 19:30:38 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:30:39 INFO  running doctor check
+2024.10.28 19:30:39 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:30:40 INFO  time: indexed workspace in 3.2s
+2024.10.28 19:30:41 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:41 INFO  time: compiled task2 in 0.54s
+2024.10.28 19:30:42 INFO  time: indexed workspace in 3.55s
+2024.10.28 19:30:42 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:42 INFO  time: indexed workspace in 3.97s
+2024.10.28 19:30:42 INFO  time: compiled task2 in 0.26s
+2024.10.28 19:30:42 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:42 INFO  time: compiled task2 in 0.21s
+2024.10.28 19:30:45 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:45 INFO  time: compiled task2 in 0.1s
+2024.10.28 19:30:45 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:45 INFO  time: compiled task2 in 0.13s
+2024.10.28 19:30:49 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:49 INFO  time: compiled task2 in 92ms
+2024.10.28 19:30:49 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:49 INFO  time: compiled task2 in 0.11s
+2024.10.28 19:30:50 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:50 INFO  time: compiled task2 in 88ms
+2024.10.28 19:30:50 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:50 INFO  time: compiled task2 in 0.1s
+2024.10.28 19:30:50 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:51 INFO  time: compiled task2 in 91ms
+2024.10.28 19:30:51 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:51 INFO  time: compiled task2 in 0.15s
+2024.10.28 19:30:54 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:54 INFO  time: compiled task2 in 84ms
+2024.10.28 19:30:54 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:54 INFO  time: compiled task2 in 82ms
+2024.10.28 19:30:54 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:54 INFO  time: compiled task2 in 81ms
+2024.10.28 19:30:54 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:54 INFO  time: compiled task2 in 78ms
+2024.10.28 19:30:54 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:55 INFO  time: compiled task2 in 73ms
+2024.10.28 19:30:55 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:55 INFO  time: compiled task2 in 71ms
+2024.10.28 19:30:55 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:55 INFO  time: compiled task2 in 86ms
+2024.10.28 19:30:55 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:55 INFO  time: compiled task2 in 94ms
+2024.10.28 19:30:55 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:55 INFO  time: compiled task2 in 0.14s
+2024.10.28 19:30:55 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:55 INFO  time: compiled task2 in 91ms
+2024.10.28 19:30:55 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:55 INFO  time: compiled task2 in 79ms
+2024.10.28 19:30:56 INFO  compiling task2 (1 scala source)
+2024.10.28 19:30:56 INFO  time: compiled task2 in 78ms
+2024.10.28 19:31:02 INFO  Disconnecting from Bloop session...
+2024.10.28 19:31:02 INFO  Shut down connection with build server.
+2024.10.28 19:31:02 INFO  Shut down connection with build server.
+2024.10.28 19:31:02 INFO  [0m[31m[E][0m Caught java.lang.InterruptedException
+2024.10.28 19:31:02 INFO  [0m[31m[E][0m Caught java.lang.InterruptedException
+2024.10.28 19:31:02 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:02 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:02 INFO  No running Bloop server found, starting one.
+2024.10.28 19:31:02 INFO  No running Bloop server found, starting one.
+2024.10.28 19:31:02 INFO  Attempting to connect to the build server...
+2024.10.28 19:31:02 INFO  No running Bloop server found, starting one.
+2024.10.28 19:31:03 INFO  Starting compilation server
+2024.10.28 19:31:03 INFO  Starting compilation server
+2024.10.28 19:31:03 INFO  Starting compilation server
+2024.10.28 19:31:03 INFO  Attempting to connect to the build server...
+2024.10.28 19:31:03 INFO  No running Bloop server found, starting one.
+2024.10.28 19:31:03 INFO  Starting compilation server
+2024.10.28 19:31:04 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:31:04 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:31:04 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:04 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:05 INFO  Attempting to connect to the build server...
+2024.10.28 19:31:05 INFO  Found a Bloop server running
+2024.10.28 19:31:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:05 INFO  Attempting to connect to the build server...
+2024.10.28 19:31:05 INFO  Found a Bloop server running
+2024.10.28 19:31:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:05 INFO  Attempting to connect to the build server...
+2024.10.28 19:31:05 INFO  Found a Bloop server running
+2024.10.28 19:31:05 INFO  Attempting to connect to the build server...
+2024.10.28 19:31:05 INFO  Found a Bloop server running
+2024.10.28 19:31:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:05 INFO  time: Connected to build server in 2.04s
+2024.10.28 19:31:05 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:31:05 INFO  Disconnecting from Bloop session...
+2024.10.28 19:31:05 INFO  Shut down connection with build server.
+2024.10.28 19:31:05 INFO  Shut down connection with build server.
+2024.10.28 19:31:05 INFO  Scala targets not supported by server
+2024.10.28 19:31:05 INFO  Scala targets not supported by server
+2024.10.28 19:31:05 INFO  Attempting to connect to the build server...
+2024.10.28 19:31:05 INFO  Found a Bloop server running
+2024.10.28 19:31:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:05 INFO  time: Connected to build server in 0.91s
+2024.10.28 19:31:05 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:31:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:05 INFO  Attempting to connect to the build server...
+2024.10.28 19:31:05 INFO  Found a Bloop server running
+2024.10.28 19:31:05 INFO  running doctor check
+2024.10.28 19:31:05 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:31:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:05 INFO  Attempting to connect to the build server...
+2024.10.28 19:31:05 INFO  Found a Bloop server running
+2024.10.28 19:31:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:05 INFO  time: Connected to build server in 0.95s
+2024.10.28 19:31:05 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:31:05 INFO  time: Imported build in 0.11s
+2024.10.28 19:31:05 INFO  running doctor check
+2024.10.28 19:31:05 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:31:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:06 INFO  time: Connected to build server in 1.03s
+2024.10.28 19:31:06 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:31:06 INFO  running doctor check
+2024.10.28 19:31:06 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:31:08 INFO  time: indexed workspace in 2.77s
+2024.10.28 19:31:09 INFO  compiling task2 (1 scala source)
+2024.10.28 19:31:09 INFO  time: indexed workspace in 3.22s
+2024.10.28 19:31:09 INFO  time: indexed workspace in 3.05s
+2024.10.28 19:31:11 INFO  time: compiled task2 in 1.76s
+2024.10.28 19:31:11 INFO  compiling task2 (1 scala source)
+2024.10.28 19:31:11 INFO  time: compiled task2 in 0.34s
+2024.10.28 19:31:25 ERROR Timeout waiting for 'build/initialize' response
+2024.10.28 19:31:25 ERROR Timeout waiting for 'build/initialize' response
+2024.10.28 19:31:25 WARN  Retrying connection to the build server Bloop
+2024.10.28 19:31:25 INFO  Found a Bloop server running
+2024.10.28 19:31:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:25 INFO  Attempting to connect to the build server...
+2024.10.28 19:31:25 INFO  Found a Bloop server running
+2024.10.28 19:31:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:25 INFO  time: Connected to build server in 23s
+2024.10.28 19:31:25 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:31:26 INFO  running doctor check
+2024.10.28 19:31:26 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:31:28 INFO  time: indexed workspace in 1.95s
+2024.10.28 19:31:28 INFO  compiling task2 (1 scala source)
+2024.10.28 19:31:28 INFO  time: compiled task2 in 0.28s
+2024.10.28 19:31:34 INFO  Disconnecting from Bloop session...
+2024.10.28 19:31:34 INFO  Shut down connection with build server.
+2024.10.28 19:31:34 INFO  Shut down connection with build server.
+2024.10.28 19:31:34 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:34 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:34 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:34 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:34 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:34 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:34 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:34 INFO  No running Bloop server found, starting one.
+2024.10.28 19:31:34 INFO  No running Bloop server found, starting one.
+2024.10.28 19:31:34 INFO  No running Bloop server found, starting one.
+2024.10.28 19:31:34 INFO  No running Bloop server found, starting one.
+2024.10.28 19:31:34 INFO  No running Bloop server found, starting one.
+2024.10.28 19:31:34 INFO  No running Bloop server found, starting one.
+2024.10.28 19:31:34 INFO  No running Bloop server found, starting one.
+2024.10.28 19:31:34 INFO  Attempting to connect to the build server...
+2024.10.28 19:31:34 INFO  No running Bloop server found, starting one.
+2024.10.28 19:31:36 INFO  Starting compilation server
+2024.10.28 19:31:36 INFO  Starting compilation server
+2024.10.28 19:31:36 INFO  Starting compilation server
+2024.10.28 19:31:36 INFO  Starting compilation server
+2024.10.28 19:31:36 INFO  Starting compilation server
+2024.10.28 19:31:36 INFO  Starting compilation server
+2024.10.28 19:31:36 INFO  Starting compilation server
+2024.10.28 19:31:36 INFO  Starting compilation server
+2024.10.28 19:31:38 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:31:38 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:31:38 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:31:38 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:31:38 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:31:38 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:38 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:38 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:31:38 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:38 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:38 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:38 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:31:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:39 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:31:39 INFO  Found a Bloop server running
+2024.10.28 19:31:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:39 INFO  Found a Bloop server running
+2024.10.28 19:31:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:39 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:31:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:47 WARN  no build target for: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\build.sbt
+2024.10.28 19:31:48 WARN  no build target for: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\build.sbt
+2024.10.28 19:31:51 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:53)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:92)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1509)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:818)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:31:59 ERROR Timeout waiting for 'build/initialize' response
+2024.10.28 19:31:59 ERROR Timeout waiting for 'build/initialize' response
+2024.10.28 19:31:59 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:751)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:626)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:31:59 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:751)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:626)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:31:59 ERROR Timeout waiting for 'build/initialize' response
+2024.10.28 19:31:59 WARN  Retrying connection to the build server Bloop
+2024.10.28 19:31:59 INFO  Found a Bloop server running
+2024.10.28 19:31:59 ERROR Timeout waiting for 'build/initialize' response
+2024.10.28 19:31:59 ERROR Timeout waiting for 'build/initialize' response
+2024.10.28 19:31:59 ERROR Timeout waiting for 'build/initialize' response
+2024.10.28 19:31:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:59 INFO  Attempting to connect to the build server...
+2024.10.28 19:31:59 INFO  Found a Bloop server running
+2024.10.28 19:31:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:31:59 INFO  time: Connected to build server in 25s
+2024.10.28 19:31:59 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:32:00 INFO  running doctor check
+2024.10.28 19:32:00 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:32:01 INFO  skipping build import with status 'Started'
+2024.10.28 19:32:01 INFO  compiling task2 (1 scala source)
+2024.10.28 19:32:01 INFO  time: indexed workspace in 1.69s
+2024.10.28 19:32:01 INFO  Deduplicating compilation of task2 from bsp client 'Metals 1.4.0' (since 2.29s)
+2024.10.28 19:32:01 INFO  compiling task2 (1 scala source)
+2024.10.28 19:32:03 INFO  time: compiled task2 in 1.07s
+2024.10.28 19:32:11 WARN  Could not find 'println' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2024.10.28 19:32:43 INFO  skipping build import with status 'Installed'
+2024.10.28 19:32:43 INFO  Disconnecting from Bloop session...
+2024.10.28 19:32:43 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:32:43 INFO  Shut down connection with build server.
+2024.10.28 19:32:43 INFO  Shut down connection with build server.
+2024.10.28 19:32:43 INFO  Attempting to connect to the build server...
+2024.10.28 19:32:43 INFO  Found a Bloop server running
+2024.10.28 19:32:43 INFO  compiling task2 (1 scala source)
+2024.10.28 19:32:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:32:43 INFO  Attempting to connect to the build server...
+2024.10.28 19:32:43 INFO  Found a Bloop server running
+2024.10.28 19:32:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:32:43 INFO  time: Connected to build server in 0.9s
+2024.10.28 19:32:43 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:32:44 INFO  running doctor check
+2024.10.28 19:32:44 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:32:46 INFO  time: indexed workspace in 2.17s
+2024.10.28 19:32:46 INFO  compiling task2 (1 scala source)
+окт. 28, 2024 7:32:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 243
+2024.10.28 19:32:46 INFO  time: compiled task2 in 0.32s
+2024.10.28 19:32:49 INFO  skipping build import with status 'Installed'
+2024.10.28 19:32:49 INFO  Disconnecting from Bloop session...
+2024.10.28 19:32:49 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:32:49 INFO  Shut down connection with build server.
+2024.10.28 19:32:49 INFO  Shut down connection with build server.
+2024.10.28 19:32:49 INFO  Scala test classes not supported by server
+2024.10.28 19:32:49 INFO  Scala main classes not supported by server
+2024.10.28 19:32:49 INFO  Attempting to connect to the build server...
+2024.10.28 19:32:49 INFO  Found a Bloop server running
+2024.10.28 19:32:49 INFO  compiling task2 (1 scala source)
+2024.10.28 19:32:49 INFO  time: compiled task2 in 73ms
+2024.10.28 19:32:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:32:49 INFO  Attempting to connect to the build server...
+2024.10.28 19:32:49 INFO  Found a Bloop server running
+2024.10.28 19:32:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:32:49 INFO  time: Connected to build server in 0.91s
+2024.10.28 19:32:49 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:32:50 INFO  running doctor check
+2024.10.28 19:32:50 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:32:51 INFO  time: indexed workspace in 1.77s
+2024.10.28 19:32:51 INFO  compiling task2 (1 scala source)
+2024.10.28 19:32:51 INFO  time: compiled task2 in 0.14s
+окт. 28, 2024 7:32:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 278
+2024.10.28 19:32:54 INFO  skipping build import with status 'Installed'
+2024.10.28 19:32:54 INFO  Disconnecting from Bloop session...
+2024.10.28 19:32:54 INFO  Shut down connection with build server.
+2024.10.28 19:32:54 INFO  Shut down connection with build server.
+2024.10.28 19:32:54 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:32:54 INFO  Attempting to connect to the build server...
+2024.10.28 19:32:54 INFO  Found a Bloop server running
+2024.10.28 19:32:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:32:54 INFO  Attempting to connect to the build server...
+2024.10.28 19:32:54 INFO  Found a Bloop server running
+2024.10.28 19:32:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:32:54 INFO  time: Connected to build server in 0.9s
+2024.10.28 19:32:54 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:32:54 INFO  running doctor check
+2024.10.28 19:32:54 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:32:56 INFO  time: indexed workspace in 1.67s
+2024.10.28 19:32:56 INFO  compiling task2 (1 scala source)
+2024.10.28 19:32:56 INFO  time: compiled task2 in 0.15s
+2024.10.28 19:32:56 INFO  skipping build import with status 'Installed'
+2024.10.28 19:32:57 INFO  Disconnecting from Bloop session...
+2024.10.28 19:32:57 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:32:57 INFO  Shut down connection with build server.
+2024.10.28 19:32:57 INFO  Shut down connection with build server.
+2024.10.28 19:32:57 INFO  Scala test classes not supported by server
+2024.10.28 19:32:57 INFO  Scala main classes not supported by server
+2024.10.28 19:32:56 INFO  compiling task2 (1 scala source)
+2024.10.28 19:32:57 INFO  Attempting to connect to the build server...
+2024.10.28 19:32:57 INFO  Found a Bloop server running
+2024.10.28 19:32:56 INFO  time: compiled task2 in 53ms
+2024.10.28 19:32:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:32:56 INFO  Attempting to connect to the build server...
+2024.10.28 19:32:56 INFO  Found a Bloop server running
+2024.10.28 19:32:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:32:57 INFO  time: Connected to build server in 0.86s
+2024.10.28 19:32:57 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:32:57 INFO  running doctor check
+2024.10.28 19:32:57 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:32:58 INFO  compiling task2 (1 scala source)
+2024.10.28 19:32:58 INFO  time: compiled task2 in 0.12s
+2024.10.28 19:32:59 INFO  time: indexed workspace in 1.64s
+2024.10.28 19:32:58 INFO  compiling task2 (1 scala source)
+2024.10.28 19:32:58 INFO  time: compiled task2 in 0.11s
+2024.10.28 19:32:59 INFO  skipping build import with status 'Installed'
+2024.10.28 19:32:59 INFO  Disconnecting from Bloop session...
+2024.10.28 19:32:59 INFO  Shut down connection with build server.
+2024.10.28 19:32:59 INFO  Shut down connection with build server.
+2024.10.28 19:32:59 INFO  Attempting to connect to the build server...
+2024.10.28 19:32:59 INFO  Found a Bloop server running
+окт. 28, 2024 7:32:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\.reports\metals-full\2024-10-28\r_compiler-error_(task2-build)_19-32-59-835.md
+2024.10.28 19:32:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:00 INFO  Attempting to connect to the build server...
+2024.10.28 19:33:00 INFO  Found a Bloop server running
+2024.10.28 19:33:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:00 INFO  time: Connected to build server in 0.91s
+2024.10.28 19:33:00 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:33:00 INFO  running doctor check
+2024.10.28 19:33:00 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:33:02 INFO  time: indexed workspace in 1.56s
+2024.10.28 19:33:02 INFO  compiling task2 (1 scala source)
+2024.10.28 19:33:02 INFO  time: compiled task2 in 0.12s
+2024.10.28 19:33:27 INFO  skipping build import with status 'Installed'
+2024.10.28 19:33:27 INFO  Disconnecting from Bloop session...
+2024.10.28 19:33:27 INFO  Shut down connection with build server.
+2024.10.28 19:33:27 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:33:27 INFO  Shut down connection with build server.
+2024.10.28 19:33:27 INFO  Attempting to connect to the build server...
+2024.10.28 19:33:27 INFO  Found a Bloop server running
+2024.10.28 19:33:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:27 INFO  Attempting to connect to the build server...
+2024.10.28 19:33:27 INFO  Found a Bloop server running
+2024.10.28 19:33:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:27 INFO  time: Connected to build server in 0.87s
+2024.10.28 19:33:27 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:33:27 INFO  running doctor check
+2024.10.28 19:33:27 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:33:30 INFO  time: indexed workspace in 1.74s
+2024.10.28 19:33:30 INFO  compiling task2 (1 scala source)
+2024.10.28 19:33:31 INFO  compiling task2-test (1 scala source)
+окт. 28, 2024 7:33:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 330
+2024.10.28 19:33:31 INFO  time: compiled task2 in 1.93s
+2024.10.28 19:33:32 INFO  time: compiled task2-test in 1.04s
+2024.10.28 19:33:33 INFO  skipping build import with status 'Installed'
+2024.10.28 19:33:33 INFO  Disconnecting from Bloop session...
+2024.10.28 19:33:33 INFO  Shut down connection with build server.
+2024.10.28 19:33:33 INFO  Shut down connection with build server.
+2024.10.28 19:33:33 INFO  Attempting to connect to the build server...
+2024.10.28 19:33:33 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:33:33 INFO  Found a Bloop server running
+2024.10.28 19:33:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:32 INFO  Attempting to connect to the build server...
+2024.10.28 19:33:32 INFO  Found a Bloop server running
+2024.10.28 19:33:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:33 INFO  time: Connected to build server in 0.91s
+2024.10.28 19:33:33 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:33:34 INFO  running doctor check
+2024.10.28 19:33:34 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:33:35 INFO  time: indexed workspace in 1.75s
+2024.10.28 19:33:35 INFO  compiling task2 (1 scala source)
+2024.10.28 19:33:35 INFO  compiling task2-test (1 scala source)
+2024.10.28 19:33:35 INFO  time: compiled task2 in 0.44s
+2024.10.28 19:33:35 INFO  time: compiled task2-test in 0.31s
+2024.10.28 19:33:36 INFO  skipping build import with status 'Installed'
+2024.10.28 19:33:36 INFO  Disconnecting from Bloop session...
+2024.10.28 19:33:36 INFO  Cancelling compilation on Bloop server
+2024.10.28 19:33:36 INFO  Shut down connection with build server.
+2024.10.28 19:33:36 INFO  Shut down connection with build server.
+2024.10.28 19:33:36 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$SemanticDbNotFoundException$.<clinit>(DiscoveryFailures.scala:66)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$runOrTestFile$1(DebugDiscovery.scala:255)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runOrTestFile(DebugDiscovery.scala:256)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$debugDiscovery$1(DebugDiscovery.scala:176)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:33:36 INFO  Scala main classes not supported by server
+2024.10.28 19:33:36 INFO  Attempting to connect to the build server...
+2024.10.28 19:33:36 INFO  Scala test classes not supported by server
+2024.10.28 19:33:36 INFO  Found a Bloop server running
+2024.10.28 19:33:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:37 INFO  Attempting to connect to the build server...
+2024.10.28 19:33:37 INFO  Found a Bloop server running
+2024.10.28 19:33:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:36 INFO  time: Connected to build server in 0.95s
+2024.10.28 19:33:36 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:33:37 INFO  running doctor check
+2024.10.28 19:33:37 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:33:39 INFO  time: indexed workspace in 1.54s
+2024.10.28 19:33:39 INFO  compiling task2-test (1 scala source)
+2024.10.28 19:33:39 INFO  time: compiled task2-test in 0.33s
+2024.10.28 19:33:44 INFO  running 'C:\Program Files\Java\jdk-18.0.2\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\artam\AppData\Local\Temp\metals8520861105524234918\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.10.28 19:33:46 INFO  [info] welcome to sbt 1.10.3 (Oracle Corporation Java 18.0.2)
+2024.10.28 19:33:46 INFO  [info] loading settings for project task2-build-build from metals.sbt ...
+2024.10.28 19:33:47 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\project
+2024.10.28 19:33:47 INFO  [info] loading settings for project task2-build from metals.sbt ...
+2024.10.28 19:33:47 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project
+2024.10.28 19:33:49 INFO  Disconnecting from Bloop session...
+2024.10.28 19:33:49 INFO  Shut down connection with build server.
+2024.10.28 19:33:49 INFO  Shut down connection with build server.
+2024.10.28 19:33:49 INFO  [0m[31m[E][0m Caught java.lang.InterruptedException
+2024.10.28 19:33:49 INFO  [0m[31m[E][0m Caught java.lang.InterruptedException
+2024.10.28 19:33:49 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:33:49 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:33:49 INFO  No running Bloop server found, starting one.
+2024.10.28 19:33:49 INFO  [0m[31m[E][0m Caught java.lang.InterruptedException
+2024.10.28 19:33:49 INFO  [0m[31m[E][0m Caught java.lang.InterruptedException
+2024.10.28 19:33:49 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:33:49 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:33:49 INFO  No running Bloop server found, starting one.
+2024.10.28 19:33:49 INFO  Attempting to connect to the build server...
+2024.10.28 19:33:49 INFO  No running Bloop server found, starting one.
+2024.10.28 19:33:49 INFO  Starting compilation server
+2024.10.28 19:33:49 INFO  Attempting to connect to the build server...
+2024.10.28 19:33:49 INFO  No running Bloop server found, starting one.
+2024.10.28 19:33:49 INFO  Starting compilation server
+2024.10.28 19:33:50 INFO  Starting compilation server
+2024.10.28 19:33:51 INFO  Starting compilation server
+2024.10.28 19:33:51 INFO  [success] Generated .bloop\task2-build.json
+2024.10.28 19:33:51 INFO  [success] Total time: 3 s, completed 28 окт. 2024 г., 19:33:51
+2024.10.28 19:33:51 INFO  [info] loading settings for project task2 from build.sbt ...
+2024.10.28 19:33:51 INFO  [info] set current project to hello-world (in build file:/C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task2/)
+2024.10.28 19:33:52 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:33:52 INFO  [0m[31m[E][0m Caught java.net.BindException: Address already in use: bind
+2024.10.28 19:33:52 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:33:52 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.10.28 19:33:53 INFO  [success] Generated .bloop\task2-test.json
+2024.10.28 19:33:53 INFO  [success] Generated .bloop\task2.json
+2024.10.28 19:33:53 INFO  [success] Total time: 1 s, completed 28 окт. 2024 г., 19:33:53
+2024.10.28 19:33:53 INFO  time: ran 'sbt bloopInstall' in 8.38s
+2024.10.28 19:33:53 INFO  Attempting to connect to the build server...
+2024.10.28 19:33:53 INFO  Found a Bloop server running
+2024.10.28 19:33:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:53 INFO  Attempting to connect to the build server...
+2024.10.28 19:33:53 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:33:53 INFO  Found a Bloop server running
+2024.10.28 19:33:53 INFO  Found a Bloop server running
+2024.10.28 19:33:53 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:751)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:626)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:33:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:33:54 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:33:53 INFO  time: Connected to build server in 1.27s
+2024.10.28 19:33:53 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:33:53 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:751)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:626)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:33:54 INFO  time: Imported build in 0.1s
+2024.10.28 19:33:54 INFO  running doctor check
+2024.10.28 19:33:54 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:33:55 INFO  Report absolute-path: ### java.nio.file.FileSystemNotFoundException: Provider "output" not installed
+
+Uri: output:tasks
+
+
+#### Error stacktrace:
+
+```
+java.base/java.nio.file.Path.of(Path.java:212)
+	java.base/java.nio.file.Paths.get(Paths.java:98)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:757)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceForOpt(WorkspaceLspService.scala:308)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:317)
+	scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:817)
+	scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+```
+
+окт. 28, 2024 7:33:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: Provider "output" not installed
+java.nio.file.FileSystemNotFoundException: Provider "output" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$validate$1(DebugDiscovery.scala:82)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:82)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1509)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:818)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.10.28 19:33:56 INFO  time: indexed workspace in 1.8s
+2024.10.28 19:33:56 INFO  compiling task2-test (1 scala source)
+2024.10.28 19:34:00 INFO  time: compiled task2-test in 3.3s
+2024.10.28 19:34:03 INFO  Shutting down server
+2024.10.28 19:34:03 INFO  shutting down Metals
+2024.10.28 19:34:03 INFO  Shut down connection with build server.
+2024.10.28 19:34:03 INFO  Shut down connection with build server.
+2024.10.28 19:34:03 INFO  Exiting server
+2024.10.28 19:34:30 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2' for client Visual Studio Code 1.94.2.
+2024.10.28 19:34:30 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 19:34:31 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\hello2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.10.28 19:34:31 INFO  Attempting to connect to the build server...
+2024.10.28 19:34:31 INFO  Found a Bloop server running
+2024.10.28 19:34:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:34:33 INFO  Attempting to connect to the build server...
+2024.10.28 19:34:33 INFO  Found a Bloop server running
+2024.10.28 19:34:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:34:33 INFO  time: Connected to build server in 1.72s
+2024.10.28 19:34:33 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:34:33 INFO  time: Imported build in 0.14s
+2024.10.28 19:34:33 INFO  running doctor check
+2024.10.28 19:34:33 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:34:37 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.10.28 19:34:39 INFO  Disconnecting from Bloop session...
+2024.10.28 19:34:39 INFO  Shut down connection with build server.
+2024.10.28 19:34:39 INFO  Shut down connection with build server.
+2024.10.28 19:34:39 INFO  Attempting to connect to the build server...
+2024.10.28 19:34:39 INFO  No running Bloop server found, starting one.
+2024.10.28 19:34:41 INFO  Starting compilation server
+2024.10.28 19:34:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:34:43 INFO  Attempting to connect to the build server...
+2024.10.28 19:34:43 INFO  Found a Bloop server running
+2024.10.28 19:34:44 INFO  time: indexed workspace in 10s
+окт. 28, 2024 7:34:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\.reports\metals-full\2024-10-28\r_compiler-error_(task2)_19-34-44-355.md
+окт. 28, 2024 7:34:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\.reports\metals-full\2024-10-28\r_compiler-error_(task2)_19-34-44-382.md
+2024.10.28 19:34:44 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task2/hello2.scala
+окт. 28, 2024 7:34:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\.metals\.reports\metals-full\2024-10-28\r_compiler-error_(task2)_19-34-44-400.md
+2024.10.28 19:34:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task2\project\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.28 19:34:44 INFO  time: Connected to build server in 4.52s
+2024.10.28 19:34:44 INFO  Connected to Build server: Bloop v2.0.3
+2024.10.28 19:34:44 INFO  running doctor check
+2024.10.28 19:34:44 INFO  java targets: task2, task2-test, task2-build
+2024.10.28 19:34:46 INFO  time: indexed workspace in 2.41s
+2024.10.28 19:34:47 INFO  compiling task2-test (1 scala source)
+2024.10.28 19:34:50 INFO  time: compiled task2-test in 3.11s
+2024.10.28 19:35:34 INFO  Shutting down server
+2024.10.28 19:35:34 INFO  shutting down Metals
+2024.10.28 19:35:34 INFO  Shut down connection with build server.
+2024.10.28 19:35:34 INFO  Shut down connection with build server.
+2024.10.28 19:35:34 INFO  Exiting server
