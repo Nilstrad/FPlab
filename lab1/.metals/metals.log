@@ -1,0 +1,87 @@
+2024.11.14 12:13:57 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\artam\Desktop\FPlabs\FPlab\lab1' for client Visual Studio Code 1.95.2.
+2024.11.14 12:13:58 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.14 12:13:58 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:13:58 INFO  Attempting to connect to the build server...
+2024.11.14 12:13:58 INFO  Found a Bloop server running
+2024.11.14 12:13:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 12:13:59 INFO  time: Connected to build server in 0.82s
+2024.11.14 12:13:59 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 12:13:59 INFO  time: Imported build in 0.15s
+2024.11.14 12:13:59 INFO  running doctor check
+2024.11.14 12:13:59 INFO  java targets: 
+2024.11.14 12:13:59 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:03 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.14 12:14:03 INFO  time: indexed workspace in 3.67s
+2024.11.14 12:14:03 WARN  no build target for: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala
+2024.11.14 12:14:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:09 INFO  running 'C:\Program Files\Java\jdk-18.0.2\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\artam\AppData\Local\Temp\metals3070768383660814280\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.14 12:14:14 INFO  [info] welcome to sbt 1.10.3 (Oracle Corporation Java 18.0.2)
+2024.11.14 12:14:14 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2024.11.14 12:14:16 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\hello-world\project\project
+2024.11.14 12:14:16 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2024.11.14 12:14:16 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab1\hello-world\project
+2024.11.14 12:14:19 INFO  [success] Generated .bloop\hello-world-build.json
+2024.11.14 12:14:19 INFO  [success] Total time: 3 s, completed 14 нояб. 2024 г., 12:14:19
+2024.11.14 12:14:19 INFO  [info] loading settings for project hello-world from build.sbt ...
+2024.11.14 12:14:19 INFO  [info] set current project to hello-world (in build file:/C:/Users/artam/Desktop/FPlabs/FPlab/lab1/hello-world/)
+2024.11.14 12:14:20 INFO  [success] Generated .bloop\hello-world-test.json
+2024.11.14 12:14:20 INFO  [success] Generated .bloop\hello-world.json
+2024.11.14 12:14:20 INFO  [success] Total time: 0 s, completed 14 нояб. 2024 г., 12:14:20
+2024.11.14 12:14:20 INFO  time: ran 'sbt bloopInstall' in 11s
+2024.11.14 12:14:20 INFO  Disconnecting from Bloop session...
+2024.11.14 12:14:20 INFO  Shut down connection with build server.
+2024.11.14 12:14:20 INFO  Attempting to connect to the build server...
+2024.11.14 12:14:20 INFO  Found a Bloop server running
+2024.11.14 12:14:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab1\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 12:14:22 INFO  time: Connected to build server in 1.48s
+2024.11.14 12:14:22 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 12:14:22 INFO  running doctor check
+2024.11.14 12:14:22 INFO  java targets: hello-world-test, hello-world
+2024.11.14 12:14:22 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2
+2024.11.14 12:14:25 INFO  time: indexed workspace in 2.84s
+2024.11.14 12:14:25 WARN  no build target for: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala
+2024.11.14 12:14:25 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:25 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:36 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:36 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:36 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:36 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab1/task1/build.sbt
+2024.11.14 12:14:36 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:45 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task1\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:45 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:45 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:45 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:45 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:14:55 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:40 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:40 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:40 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:41 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:41 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:41 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:42 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:42 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:42 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:44 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:47 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:47 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:47 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:47 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:54 WARN  no build target for: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala
+2024.11.14 12:16:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:58 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:58 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:16:58 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:17:04 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:17:04 WARN  no build target for: C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala
+2024.11.14 12:17:04 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab1\task3\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4

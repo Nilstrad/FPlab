@@ -1,7 +1,7 @@
 def splitCollection(numbers: Seq[Int]): (Seq[Int], Seq[Int]) = {
-    val evenSeq = numbers.filter(x => x%2==0)
-    val oddSeq = numbers.filter(x => x%2!=0)
-    return (evenSeq, oddSeq)
+     val evenSeq = numbers.zipWithIndex.filter { case (_, index) => index % 2 == 0 }.map { case (value, _) => value }
+  val oddSeq = numbers.zipWithIndex.filter { case (_, index) => index % 2 != 0 }.map { case (value, _) => value }
+  (evenSeq, oddSeq)
 }
 
 def findMax(numbers: Seq[Int]): Int = {
@@ -11,7 +11,7 @@ def findMax(numbers: Seq[Int]): Int = {
 
 def squaredNumbers(numbers: Seq[Int]): (Seq[Int]) = {
     val squaredNumbers = numbers.map(x => x*x)
-    return squaredNumbers
+    return squaredNumbers   
 }
 
 @main def runApp(): Unit = {

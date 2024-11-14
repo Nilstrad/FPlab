@@ -1,0 +1,1483 @@
+2024.11.14 10:37:00 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.14 10:37:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\lab2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:37:01 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.11.14 10:37:02 INFO  Running List(C:\Program Files\Java\jdk-18.0.2\bin\java.exe, -cp, C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\cli_3\1.5.1\cli_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app_3\2.1.0-M29\case-app_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-launcher_2.13\2.1.13\coursier-launcher_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-proxy-setup\2.1.13\coursier-proxy-setup-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\publish\publish_2.13\0.1.6\publish_2.13-0.1.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\jimfs\jimfs\1.3.0\jimfs-1.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\jniutils\windows-jni-utils\0.3.3\windows-jni-utils-0.3.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\plokhotnyuk\jsoniter-scala\jsoniter-scala-core_3\2.13.5.2\jsoniter-scala-core_3-2.13.5.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\libsodiumjni\0.0.4\libsodiumjni-0.0.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-typesafe-config_3\0.13.0\metaconfig-typesafe-config_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ai\kien\python-native-libs_3\0.2.4\python-native-libs_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-packager_2.13\0.1.29\scala-packager_2.13-0.1.29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\cli_3\0.2.4\cli_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-nop\2.0.16\slf4j-nop-2.0.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\client3\core_2.13\3.9.8\core_2.13-3.9.8.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.4\scala3-library_3-3.3.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-module_3\1.5.1\build-module_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\config_3\1.5.1\config_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala3-graal_3\1.5.1\scala3-graal_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\specification-level_3\1.5.1\specification-level_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\sourcecode_3\0.4.2\sourcecode_3-0.4.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-annotations_3\2.1.0-M29\case-app-annotations_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-util_3\2.1.0-M29\case-app-util_3-2.1.0-M29.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\tmp\zip-input-stream\0.1.1\zip-input-stream-0.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.15\scala-library-2.13.15.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-cache_2.13\2.1.13\coursier-cache_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-core_2.13\2.1.13\coursier-core_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-core_3\0.13.0\metaconfig-core_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.3\config-1.4.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-collection-compat_3\2.12.0\scala-collection-compat_3-2.12.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-core\0.22.0\jib-core-0.22.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcpg-jdk18on\1.78.1\bcpg-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\shared_3\0.2.4\shared_3-0.2.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\model\core_2.13\1.7.9\core_2.13-1.7.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\core_2.13\1.3.16\core_2.13-1.3.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\ws_2.13\1.3.16\ws_2.13-1.3.16.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\java-class-name\java-class-name_3\0.1.3\java-class-name_3-0.1.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\semanticdb-shared_2.13.15\4.9.9\semanticdb-shared_2.13.15-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\test-runner_3\0.5.5\test-runner_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-lib_3\0.10.6\os-lib_3-0.10.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\pprint_3\0.9.0\pprint_3-0.9.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-nodejs_2.13\1.4.0\scalajs-env-nodejs_2.13-1.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-sbt-test-adapter_2.13\1.17.0\scalajs-sbt-test-adapter_2.13-1.17.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\swoval\file-tree-views\2.1.12\file-tree-views-2.1.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\zip-input-stream\zip-input-stream\0.1.2\zip-input-stream-0.1.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\options_3\1.5.1\options_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\directives_3\1.5.1\directives_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala-cli-bsp\1.5.1\scala-cli-bsp-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\test-runner_3\1.5.1\test-runner_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\tasty-lib_3\1.5.1\tasty-lib_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-archiver\4.9.0\plexus-archiver-4.9.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-container-default\2.1.1\plexus-container-default-2.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\windows-ansi\windows-ansi\0.0.5\windows-ansi-0.0.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-util_2.13\2.1.13\coursier-util_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\concurrent-reference-hash-map\1.1.0\concurrent-reference-hash-map-1.1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\2.3.0\scala-xml_2.13-2.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-pprint_3\0.13.0\metaconfig-pprint_3-0.13.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\typelevel\paiges-core_3\0.4.4\paiges-core_3-0.4.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.14\scala-reflect-2.13.14.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-build-plan\0.4.0\jib-build-plan-0.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client\1.34.0\google-http-client-1.34.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-apache-v2\1.34.0\google-http-client-apache-v2-1.34.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-oauth2-http\0.18.0\google-auth-library-oauth2-http-0.18.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.3\jackson-datatype-jsr310-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcprov-jdk18on\1.78.1\bcprov-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcutil-jdk18on\1.78.1\bcutil-jdk18on-1.78.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.3.1\scala3-compiler_3-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\scalameta_2.13\4.9.9\scalameta_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\scalapb-runtime_2.13\0.11.17\scalapb-runtime_2.13-0.11.17.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\tools_3\0.5.5\tools_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\sbt\junit-interface\0.13.3\junit-interface-0.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_3\1.1.1\geny_3-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\fansi_3\0.5.0\fansi_3-0.5.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-js-envs_2.13\1.4.0\scalajs-js-envs_2.13-1.4.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-config_2.13\2.0.3\bloop-config_2.13-2.0.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\core_3\1.5.1\core_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\using_directives\1.1.1\using_directives-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-macros_3\1.5.1\build-macros_3-1.5.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bsp4j\2.1.1\bsp4j-2.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-utils\4.0.0\plexus-utils-4.0.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-io\3.4.1\plexus-io-3.4.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\iq80\snappy\snappy\0.4\snappy-0.4.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\tukaani\xz\1.9\xz-1.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\luben\zstd-jni\1.5.5-10\zstd-jni-1.5.5-10.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\xbean\xbean-reflect\3.7\xbean-reflect-3.7.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.18\jansi-1.18.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpclient\4.5.10\httpclient-4.5.10.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpcore\4.4.12\httpcore-4.4.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-api\0.24.0\opencensus-api-0.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-contrib-http-util\0.24.0\opencensus-contrib-http-util-0.24.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auto\value\auto-value-annotations\1.6.6\auto-value-annotations-1.6.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-credentials\0.18.0\google-auth-library-credentials-0.18.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-jackson2\1.32.1\google-http-client-jackson2-1.32.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.3.1\scala3-interfaces-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.3.1\tasty-core_3-3.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.5.0-scala-1\scala-asm-9.5.0-scala-1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.3.5\compiler-interface-1.3.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.19.0\jline-reader-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.19.0\jline-terminal-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jna\3.19.0\jline-terminal-jna-3.19.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\parsers_2.13\4.9.9\parsers_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scalap\2.13.11\scalap-2.13.11.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\lenses_2.13\0.11.17\lenses_2.13-0.11.17.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.19.6\protobuf-java-3.19.6.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\nir_3\0.5.5\nir_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\util_3\0.5.5\util_3-0.5.5.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-logging_2.13\1.1.1\scalajs-logging_2.13-1.1.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\unroll-annotation_2.13\0.1.12\unroll-annotation_2.13-0.1.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-rifle_2.13\2.0.2\bloop-rifle_2.13-2.0.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-jvm_2.13\2.1.13\coursier-jvm_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\dependency_3\0.2.3\dependency_3-0.2.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jgit\org.eclipse.jgit\6.8.0.202311291450-r\org.eclipse.jgit-6.8.0.202311291450-r.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-jsdom-nodejs_2.13\1.1.0\scalajs-env-jsdom-nodejs_2.13-1.1.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.generator\0.20.1\org.eclipse.lsp4j.generator-0.20.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.jsonrpc\0.20.1\org.eclipse.lsp4j.jsonrpc-0.20.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\grpc\grpc-context\1.22.1\grpc-context-1.22.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.3.0\util-interface-1.3.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\trees_2.13\4.9.9\trees_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.11\scala-compiler-2.13.11.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\libdaemon_2.13\0.0.12\libdaemon_2.13-0.0.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\snailgun\snailgun-core_2.13\0.4.1-sc2\snailgun-core_2.13-0.4.1-sc2.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\argonaut-shapeless_6.3_2.13\1.3.1\argonaut-shapeless_6.3_2.13-1.3.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier_2.13\2.1.13\coursier_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-env_2.13\2.1.13\coursier-env_2.13-2.1.13.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\googlecode\javaewah\JavaEWAH\1.2.3\JavaEWAH-1.2.3.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib\2.28.0\org.eclipse.xtend.lib-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\common_2.13\4.9.9\common_2.13-4.9.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\argonaut\argonaut_2.13\6.3.8\argonaut_2.13-6.3.8.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\chuusai\shapeless_2.13\2.3.9\shapeless_2.13-2.3.9.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtext\org.eclipse.xtext.xbase.lib\2.28.0\org.eclipse.xtext.xbase.lib-2.28.0.jar;C:\Users\artam\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib.macro\2.28.0\org.eclipse.xtend.lib.macro-2.28.0.jar, scala.cli.ScalaCli, bsp, C:\Users\artam\Desktop\FPlabs\FPlab\lab2)
+2024.11.14 10:37:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 10:37:05 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab2/lab2.scala
+нояб. 14, 2024 10:37:06 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.11.14 10:37:13 INFO  Scala CLI: Starting compilation server
+2024.11.14 10:37:21 INFO  Connected to Scala CLI server v1.5.1
+2024.11.14 10:37:22 INFO  compiling lab2_f4dd477a3a (1 scala source)
+2024.11.14 10:37:27 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.14 10:37:28 INFO  time: indexed workspace in 4.13s
+2024.11.14 10:39:23 INFO  Scala CLI started for C:\Users\artam\Desktop\FPlabs\FPlab\lab2
+2024.11.14 10:39:23 WARN  no build tool detected in workspace 'C:\Users\artam\Desktop\FPlabs\FPlab\lab2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.11.14 10:39:23 WARN  Build server is not auto-connectable.
+2024.11.14 10:39:23 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab2/lab2.scala
+2024.11.14 10:39:23 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab2/lab2.scala
+2024.11.14 10:39:52 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab2/lab2.scala
+2024.11.14 10:46:45 INFO  compiling lab2_f4dd477a3a (1 scala source)
+2024.11.14 10:46:46 INFO  time: compiled lab2_f4dd477a3a in 1.57s
+нояб. 14, 2024 10:46:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1098
+нояб. 14, 2024 10:48:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1233
+2024.11.14 10:49:31 INFO  compiling lab2_f4dd477a3a (1 scala source)
+2024.11.14 10:49:31 INFO  time: compiled lab2_f4dd477a3a in 0.65s
+2024.11.14 10:49:41 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.14 10:50:48 WARN  Build server is not auto-connectable.
+2024.11.14 10:50:48 WARN  Build server is not auto-connectable.
+2024.11.14 10:50:48 WARN  Build server is not auto-connectable.
+2024.11.14 10:51:42 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:51:42 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:51:42 WARN  no build target for: C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task3.scala
+2024.11.14 10:51:42 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:51:42 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab2/task3.scala
+2024.11.14 10:51:42 WARN  No build server connected
+2024.11.14 10:51:42 INFO  compiling lab2_f4dd477a3a (1 scala source)
+2024.11.14 10:51:42 INFO  time: compiled lab2_f4dd477a3a in 80ms
+2024.11.14 10:51:49 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:51:49 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:51:49 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:51:49 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:51:49 WARN  No build server connected
+2024.11.14 10:51:49 INFO  Cancelling compilation on scala-cli server
+2024.11.14 10:51:49 INFO  compiling lab2_f4dd477a3a (2 scala sources)
+2024.11.14 10:51:50 INFO  time: compiled lab2_f4dd477a3a in 1s
+2024.11.14 10:51:52 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:51:52 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab2/task3.scala
+2024.11.14 10:52:04 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:04 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:05 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:06 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:07 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:08 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:08 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:08 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:09 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:09 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:09 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:09 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:10 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:09 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:10 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:10 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:10 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:10 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:11 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:15 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:15 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:15 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:15 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:15 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:17 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:17 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:17 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:18 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:18 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:18 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:22 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:22 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:23 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:22 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:22 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:23 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:52:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:53:34 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:53:39 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:53:39 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:53:39 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:53:39 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:54:48 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:54:48 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:54:48 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:54:49 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:54:50 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:54:49 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:54:49 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:54:50 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:54:53 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:54:53 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:54:55 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:54:55 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:39 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:39 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:39 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:39 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:40 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:41 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:56 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:56 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:56 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:56 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:57 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:57 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:59 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:59 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:59 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:56:59 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:04 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:05 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:05 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:05 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:05 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:05 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:06 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:06 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:06 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:06 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:07 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:07 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:07 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:07 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:07 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:07 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:08 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:08 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:08 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:08 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:08 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:08 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:08 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:09 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:09 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:09 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:09 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:10 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:10 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:10 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:10 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:10 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:10 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:11 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:11 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:11 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:11 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:11 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:11 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:11 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:11 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:12 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:12 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:12 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:14 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:14 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:16 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:16 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:16 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:18 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Exception in thread "pool-75-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024.11.14 10:57:18 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:19 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:23 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:25 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+нояб. 14, 2024 10:57:25 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\.reports\metals-full\2024-11-14\r_compiler-error_10-57-25-502.md
+2024.11.14 10:57:25 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+нояб. 14, 2024 10:57:26 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\.reports\metals-full\2024-11-14\r_compiler-error_10-57-26-785.md
+2024.11.14 10:57:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+нояб. 14, 2024 10:57:26 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\.reports\metals-full\2024-11-14\r_compiler-error_10-57-26-956.md
+2024.11.14 10:57:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:26 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:27 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:27 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:27 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:29 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:30 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:30 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:30 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:33 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:33 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:34 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:34 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:35 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:34 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:35 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:37 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:37 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:38 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:38 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:40 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:46 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:49 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:49 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:49 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:49 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:51 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:51 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:51 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:52 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:53 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 10:57:54 WARN  no build target for: C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+нояб. 14, 2024 11:06:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\.reports\metals-full\2024-11-14\r_compiler-error_(lab2_f4dd477a3a)_11-06-33-746.md
+2024.11.14 11:12:14 INFO  compiling lab2_f4dd477a3a (1 scala source)
+2024.11.14 11:12:16 INFO  time: compiled lab2_f4dd477a3a in 1.16s
+нояб. 14, 2024 11:14:26 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\.reports\metals-full\2024-11-14\r_compiler-error_(lab2_f4dd477a3a)_11-14-26-149.md
+2024.11.14 11:16:29 INFO  compiling lab2_f4dd477a3a (1 scala source)
+2024.11.14 11:16:29 INFO  time: compiled lab2_f4dd477a3a in 0.77s
+2024.11.14 11:17:12 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:17:12 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:17:12 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:17:12 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:17:12 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:17:12 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:17:12 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:20 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:31 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:32 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:33 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:34 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:34 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:36 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:36 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:36 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:36 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:36 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:36 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:36 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:36 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:36 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:36 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:37 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:18:59 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:19:11 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:19:13 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:20:04 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:20:05 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:20:06 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:20:09 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:20:19 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:20:25 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:20:33 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:20:35 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:21:28 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:21:32 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:21:32 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:21:49 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:32 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:35 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:42 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:43 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:43 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:43 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:43 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:43 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:43 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:46 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:47 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:57 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:22:58 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:06 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:07 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:07 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:08 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:09 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:09 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:14 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:15 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:18 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:18 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:20 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:23 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:23 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:24 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:25 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:25 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:26 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:26 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:27 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:28 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:46 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:47 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:53 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:53 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:23:54 INFO  compiling lab2_f4dd477a3a (1 scala source)
+2024.11.14 11:23:54 INFO  time: compiled lab2_f4dd477a3a in 0.59s
+2024.11.14 11:23:55 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:24:42 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:25:57 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:25:58 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:25:58 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:25:58 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:25:58 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:26:24 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:27:11 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:27:13 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:27:26 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:27:26 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:08 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:10 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:10 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:10 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:10 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:10 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:10 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:10 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:10 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:10 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:10 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:10 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:10 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:55 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:56 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:56 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:56 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:56 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:58 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:58 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:58 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:28:59 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:29:00 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:29:02 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:29:05 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:29:18 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:29:21 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:29:21 WARN  Could not load snapshot text for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+2024.11.14 11:29:24 INFO  compiling lab2_f4dd477a3a (1 scala source)
+2024.11.14 11:29:24 INFO  time: compiled lab2_f4dd477a3a in 0.51s
+2024.11.14 11:30:54 INFO  compiling lab2_f4dd477a3a (1 scala source)
+2024.11.14 11:30:54 INFO  time: compiled lab2_f4dd477a3a in 0.37s
+2024.11.14 11:31:45 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:31:45 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:31:45 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:31:45 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab2/build.sbt
+2024.11.14 11:31:51 INFO  running 'C:\Program Files\Java\jdk-18.0.2\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.10.3 -jar C:\Users\artam\AppData\Local\Temp\metals15755658912521357616\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.14 11:32:00 INFO  [info] Updated file C:\Users\artam\Desktop\FPlabs\FPlab\lab2\project\build.properties: set sbt.version to 1.10.3
+2024.11.14 11:32:00 INFO  [info] welcome to sbt 1.10.3 (Oracle Corporation Java 18.0.2)
+2024.11.14 11:32:02 INFO  [info] loading settings for project lab2-build-build from metals.sbt ...
+2024.11.14 11:32:02 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab2\project\project
+2024.11.14 11:32:04 INFO  [info] loading settings for project lab2-build from metals.sbt ...
+2024.11.14 11:32:04 INFO  [info] loading project definition from C:\Users\artam\Desktop\FPlabs\FPlab\lab2\project
+2024.11.14 11:32:09 INFO  [success] Generated .bloop\lab2-build.json
+2024.11.14 11:32:09 INFO  [success] Total time: 5 s, completed 14 нояб. 2024 г., 11:32:09
+2024.11.14 11:32:11 INFO  [info] loading settings for project lab2 from build.sbt ...
+2024.11.14 11:32:11 INFO  [info] set current project to hello-world (in build file:/C:/Users/artam/Desktop/FPlabs/FPlab/lab2/)
+2024.11.14 11:32:11 INFO  [success] Generated .bloop\lab2.json
+2024.11.14 11:32:11 INFO  [success] Generated .bloop\lab2-test.json
+2024.11.14 11:32:11 INFO  [success] Total time: 1 s, completed 14 нояб. 2024 г., 11:32:12
+2024.11.14 11:32:12 INFO  time: ran 'sbt bloopInstall' in 20s
+2024.11.14 11:32:12 INFO  Shut down connection with build server.
+2024.11.14 11:32:12 INFO  Attempting to connect to the build server...
+2024.11.14 11:32:12 INFO  Found a Bloop server running
+2024.11.14 11:32:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 11:32:13 INFO  time: Connected to build server in 1.8s
+2024.11.14 11:32:13 INFO  Connected to Build server: Bloop v2.0.2
+2024.11.14 11:32:13 INFO  running doctor check
+2024.11.14 11:32:13 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 11:32:15 INFO  time: indexed workspace in 1.97s
+2024.11.14 11:32:26 INFO  Disconnecting from Bloop session...
+2024.11.14 11:32:26 INFO  Shut down connection with build server.
+2024.11.14 11:32:26 INFO  Attempting to connect to the build server...
+2024.11.14 11:32:26 INFO  No running Bloop server found, starting one.
+2024.11.14 11:32:27 INFO  Starting compilation server
+2024.11.14 11:32:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 11:32:29 INFO  time: Connected to build server in 2.94s
+2024.11.14 11:32:29 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 11:32:29 INFO  time: Imported build in 0.14s
+2024.11.14 11:32:29 INFO  running doctor check
+2024.11.14 11:32:29 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 11:32:30 INFO  time: indexed workspace in 1.11s
+2024.11.14 11:32:40 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:33:14 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:33:14 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:33:14 INFO  skipping build import with status 'Installed'
+2024.11.14 11:33:14 INFO  Disconnecting from Bloop session...
+2024.11.14 11:33:14 INFO  Shut down connection with build server.
+2024.11.14 11:33:14 INFO  Attempting to connect to the build server...
+2024.11.14 11:33:14 INFO  Found a Bloop server running
+2024.11.14 11:33:14 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:33:14 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab2/task1.scala
+2024.11.14 11:33:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 11:33:14 INFO  time: Connected to build server in 0.44s
+2024.11.14 11:33:14 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 11:33:14 INFO  running doctor check
+2024.11.14 11:33:14 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 11:33:15 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:33:15 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:33:16 INFO  time: indexed workspace in 1.32s
+2024.11.14 11:33:30 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:33:30 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:34:16 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:34:16 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+нояб. 14, 2024 11:42:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5224
+нояб. 14, 2024 11:44:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\.reports\metals-full\2024-11-14\r_compiler-error_(lab2_f4dd477a3a)_11-44-42-805.md
+нояб. 14, 2024 11:44:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\.reports\metals-full\2024-11-14\r_compiler-error_(lab2_f4dd477a3a)_11-44-46-139.md
+нояб. 14, 2024 11:46:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5756
+нояб. 14, 2024 11:46:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5776
+2024.11.14 11:46:55 INFO  skipping build import with status 'Installed'
+2024.11.14 11:46:55 INFO  Disconnecting from Bloop session...
+2024.11.14 11:46:55 INFO  Cancelling compilation on scala-cli server
+2024.11.14 11:46:55 INFO  Shut down connection with build server.
+2024.11.14 11:46:55 INFO  Attempting to connect to the build server...
+2024.11.14 11:46:55 INFO  Found a Bloop server running
+2024.11.14 11:46:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 11:46:56 INFO  time: Connected to build server in 0.42s
+2024.11.14 11:46:56 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 11:46:56 INFO  running doctor check
+2024.11.14 11:46:56 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 11:46:57 INFO  time: indexed workspace in 1.48s
+2024.11.14 11:47:55 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:47:55 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:48:52 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:48:52 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab2/task1.scala
+2024.11.14 11:48:53 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:48:53 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:48:53 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:48:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:48:55 INFO  skipping build import with status 'Installed'
+2024.11.14 11:48:54 INFO  Disconnecting from Bloop session...
+2024.11.14 11:48:54 INFO  Shut down connection with build server.
+2024.11.14 11:48:54 INFO  Attempting to connect to the build server...
+2024.11.14 11:48:54 INFO  Found a Bloop server running
+2024.11.14 11:48:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 11:48:55 INFO  time: Connected to build server in 0.43s
+2024.11.14 11:48:55 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 11:48:55 INFO  running doctor check
+2024.11.14 11:48:55 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 11:48:55 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:48:55 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:48:57 INFO  time: indexed workspace in 1.72s
+2024.11.14 11:49:57 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:49:57 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:50:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:50:03 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab2/task3.scala
+2024.11.14 11:50:03 INFO  compiling lab2 (2 scala sources)
+2024.11.14 11:50:06 INFO  time: compiled lab2 in 3.1s
+2024.11.14 11:50:06 WARN  Could not find semantic tokens for: file:///C:/Users/artam/Desktop/FPlabs/FPlab/lab2/task3.scala
+2024.11.14 11:58:26 INFO  skipping build import with status 'Installed'
+2024.11.14 11:58:26 INFO  Disconnecting from Bloop session...
+2024.11.14 11:58:26 INFO  Cancelling compilation on scala-cli server
+2024.11.14 11:58:26 INFO  Shut down connection with build server.
+2024.11.14 11:58:26 INFO  Attempting to connect to the build server...
+2024.11.14 11:58:26 INFO  Found a Bloop server running
+2024.11.14 11:58:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 11:58:27 INFO  time: Connected to build server in 0.43s
+2024.11.14 11:58:27 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 11:58:26 INFO  running doctor check
+2024.11.14 11:58:26 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 11:58:28 INFO  time: indexed workspace in 1.45s
+2024.11.14 11:58:41 INFO  compiling lab2 (1 scala source)
+2024.11.14 11:58:41 INFO  time: compiled lab2 in 0.87s
+2024.11.14 11:58:42 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:58:42 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:58:42 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 11:58:46 INFO  skipping build import with status 'Installed'
+2024.11.14 11:58:46 INFO  Cancelling compilation on scala-cli server
+2024.11.14 11:58:46 INFO  Disconnecting from Bloop session...
+2024.11.14 11:58:46 INFO  Shut down connection with build server.
+2024.11.14 11:58:46 INFO  Attempting to connect to the build server...
+2024.11.14 11:58:46 INFO  Found a Bloop server running
+2024.11.14 11:58:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 11:58:46 INFO  time: Connected to build server in 0.45s
+2024.11.14 11:58:46 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 11:58:46 INFO  running doctor check
+2024.11.14 11:58:46 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 11:58:48 INFO  time: indexed workspace in 1.11s
+2024.11.14 11:59:30 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [63546 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:59:30 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [63546 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:59:49 INFO  skipping build import with status 'Installed'
+2024.11.14 11:59:49 INFO  Disconnecting from Bloop session...
+2024.11.14 11:59:49 INFO  Cancelling compilation on scala-cli server
+2024.11.14 11:59:49 INFO  Shut down connection with build server.
+2024.11.14 11:59:49 INFO  Attempting to connect to the build server...
+2024.11.14 11:59:49 INFO  Found a Bloop server running
+2024.11.14 11:59:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 11:59:49 INFO  time: Connected to build server in 0.47s
+2024.11.14 11:59:49 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 11:59:49 INFO  running doctor check
+2024.11.14 11:59:49 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 11:59:49 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [63546 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:59:49 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [63546 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 11:59:51 INFO  time: indexed workspace in 1.53s
+2024.11.14 12:00:59 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [70608 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:00:59 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [70608 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:02:23 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [83670 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:02:23 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [83670 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+нояб. 14, 2024 12:03:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6810
+2024.11.14 12:04:03 INFO  skipping build import with status 'Installed'
+2024.11.14 12:04:03 INFO  Disconnecting from Bloop session...
+2024.11.14 12:04:03 INFO  Cancelling compilation on scala-cli server
+2024.11.14 12:04:03 INFO  Shut down connection with build server.
+2024.11.14 12:04:03 INFO  Attempting to connect to the build server...
+2024.11.14 12:04:03 INFO  Found a Bloop server running
+2024.11.14 12:04:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 12:04:04 INFO  time: Connected to build server in 0.42s
+2024.11.14 12:04:04 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 12:04:04 INFO  running doctor check
+2024.11.14 12:04:04 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 12:04:05 INFO  time: indexed workspace in 1.35s
+2024.11.14 12:05:20 INFO  Cancelling compilation on scala-cli server
+java.util.concurrent.TimeoutException: Future timed out after [10 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:05:35 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [91638 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:05:35 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [91638 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:05:54 INFO  skipping build import with status 'Installed'
+2024.11.14 12:05:54 INFO  Disconnecting from Bloop session...
+2024.11.14 12:05:54 INFO  Cancelling compilation on scala-cli server
+2024.11.14 12:05:54 INFO  Shut down connection with build server.
+2024.11.14 12:05:54 INFO  Attempting to connect to the build server...
+2024.11.14 12:05:54 INFO  Found a Bloop server running
+2024.11.14 12:05:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 12:05:54 INFO  time: Connected to build server in 0.52s
+2024.11.14 12:05:54 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 12:05:54 INFO  running doctor check
+2024.11.14 12:05:54 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 12:05:55 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:05:55 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:05:56 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:05:56 INFO  time: indexed workspace in 1.67s
+2024.11.14 12:06:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:18 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:18 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:19 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:18 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:20 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:20 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+нояб. 14, 2024 12:06:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7177
+нояб. 14, 2024 12:06:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7178
+нояб. 14, 2024 12:06:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7179
+нояб. 14, 2024 12:06:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7180
+нояб. 14, 2024 12:06:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7181
+нояб. 14, 2024 12:06:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7182
+нояб. 14, 2024 12:06:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7183
+нояб. 14, 2024 12:06:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7184
+2024.11.14 12:06:36 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:36 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:36 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:36 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:39 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:39 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:39 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:39 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:44 INFO  skipping build import with status 'Installed'
+2024.11.14 12:06:44 INFO  Disconnecting from Bloop session...
+2024.11.14 12:06:44 INFO  Shut down connection with build server.
+2024.11.14 12:06:44 INFO  Attempting to connect to the build server...
+2024.11.14 12:06:44 INFO  Found a Bloop server running
+нояб. 14, 2024 12:06:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.11.14 12:06:44 INFO  no build target found for c:\Users\artam\Desktop\FPlabs\FPlab\lab2\task1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 12:06:44 INFO  time: Connected to build server in 0.57s
+2024.11.14 12:06:44 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 12:06:44 INFO  running doctor check
+2024.11.14 12:06:44 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 12:06:46 INFO  time: indexed workspace in 1.4s
+2024.11.14 12:06:48 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:48 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:48 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:50 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:50 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:06:53 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+нояб. 14, 2024 12:06:53 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+java.nio.file.NoSuchFileException: C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3289)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:442)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:278)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:289)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:204)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:177)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:177)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:376)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+нояб. 14, 2024 12:06:53 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+java.nio.file.NoSuchFileException: C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3289)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:442)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:278)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:289)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:300)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:204)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:177)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:177)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:376)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:07:05 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:07:05 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:07:05 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:07:05 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:07:15 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [99969 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:07:15 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [99969 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:07:34 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [99969 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:07:34 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [99969 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:08:26 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [99969 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:08:26 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [99969 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:09:08 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+нояб. 14, 2024 12:09:08 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+java.nio.file.NoSuchFileException: C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3289)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:442)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:278)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:289)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:204)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:177)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:177)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:376)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+нояб. 14, 2024 12:09:08 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+java.nio.file.NoSuchFileException: C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3289)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:442)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:278)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:289)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:300)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:204)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:177)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:177)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:376)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:09:08 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:09 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+нояб. 14, 2024 12:09:10 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+java.nio.file.NoSuchFileException: C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3289)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:442)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:278)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:289)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:204)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:177)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:177)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:376)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+нояб. 14, 2024 12:09:10 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+java.nio.file.NoSuchFileException: C:\Users\artam\Desktop\FPlabs\FPlab\lab2\task2.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3289)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:442)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:278)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:289)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:300)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:204)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:177)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:177)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:284)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:131)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:131)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:376)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:09:09 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:09 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:14 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:21 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:21 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:22 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:22 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:22 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:29 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:29 INFO  skipping build import with status 'Installed'
+2024.11.14 12:09:29 INFO  Disconnecting from Bloop session...
+2024.11.14 12:09:29 INFO  Shut down connection with build server.
+2024.11.14 12:09:29 INFO  Attempting to connect to the build server...
+2024.11.14 12:09:29 INFO  Found a Bloop server running
+2024.11.14 12:09:29 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 12:09:29 INFO  time: Connected to build server in 0.46s
+2024.11.14 12:09:29 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 12:09:29 INFO  running doctor check
+2024.11.14 12:09:29 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 12:09:30 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:09:31 INFO  time: indexed workspace in 1.55s
+2024.11.14 12:10:45 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:10:48 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:10:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:10:56 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:10:56 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:10:56 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Exception in thread "pool-172-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024.11.14 12:10:59 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:10:59 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:10:59 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:10:59 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:10:59 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:04 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:04 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:04 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:04 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:04 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:06 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:06 INFO  skipping build import with status 'Installed'
+2024.11.14 12:11:06 INFO  Disconnecting from Bloop session...
+2024.11.14 12:11:06 INFO  Shut down connection with build server.
+2024.11.14 12:11:06 INFO  Attempting to connect to the build server...
+2024.11.14 12:11:06 INFO  Found a Bloop server running
+2024.11.14 12:11:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 12:11:06 INFO  time: Connected to build server in 0.43s
+2024.11.14 12:11:06 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 12:11:06 INFO  running doctor check
+2024.11.14 12:11:06 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 12:11:07 INFO  time: indexed workspace in 1.23s
+2024.11.14 12:11:25 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:28 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:35 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [123960 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:11:35 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [123960 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:11:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:54 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:55 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:57 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:11:57 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:00 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:03 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:12 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:12 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:12 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:12 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:13 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:12 INFO  skipping build import with status 'Installed'
+2024.11.14 12:12:13 INFO  Disconnecting from Bloop session...
+2024.11.14 12:12:13 INFO  Shut down connection with build server.
+2024.11.14 12:12:13 INFO  Attempting to connect to the build server...
+2024.11.14 12:12:13 INFO  Found a Bloop server running
+2024.11.14 12:12:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 12:12:14 INFO  time: Connected to build server in 0.49s
+2024.11.14 12:12:14 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 12:12:14 INFO  running doctor check
+2024.11.14 12:12:14 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 12:12:15 INFO  time: indexed workspace in 1.38s
+2024.11.14 12:12:19 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:19 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:19 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:19 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:21 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:21 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:21 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:24 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:30 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:43 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:43 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:44 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:44 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:45 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:48 INFO  skipping build import with status 'Installed'
+2024.11.14 12:12:48 INFO  Disconnecting from Bloop session...
+2024.11.14 12:12:48 INFO  Shut down connection with build server.
+2024.11.14 12:12:48 INFO  Attempting to connect to the build server...
+2024.11.14 12:12:48 INFO  Found a Bloop server running
+2024.11.14 12:12:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\artam\Desktop\FPlabs\FPlab\lab2\.metals\bsp.trace.json or C:\Users\artam\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.14 12:12:48 INFO  time: Connected to build server in 0.48s
+2024.11.14 12:12:48 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.14 12:12:49 INFO  running doctor check
+2024.11.14 12:12:49 INFO  java targets: lab2_f4dd477a3a-test, lab2_f4dd477a3a, lab2, lab2-test
+2024.11.14 12:12:50 INFO  time: indexed workspace in 1.35s
+2024.11.14 12:12:56 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:56 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:12:56 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:13:01 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:13:02 INFO  no build target found for C:\Users\artam\Desktop\FPlabs\FPlab\lab2\tasks.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.14 12:13:11 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [123960 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:13:11 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [123960 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.14 12:13:11 INFO  Shutting down server
+2024.11.14 12:13:11 INFO  shutting down Metals
+2024.11.14 12:13:11 INFO  Shut down connection with build server.
+2024.11.14 12:13:11 INFO  Exiting server
