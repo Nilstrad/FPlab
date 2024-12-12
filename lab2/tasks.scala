@@ -24,10 +24,10 @@ def goodEnoughPassword(password:String): Option[Boolean] = {
     val uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     val numbers = "1234567890"
     val specials = "!@#$%^&*()[]{};:,./<>?|"
-    var requirements: Seq[Boolean] =Seq(password.length() >= minLength &&
-                                        hasNSymbols(password,lowercase,1) &&
-                                        hasNSymbols(password,uppercase,1) &&
-                                        hasNSymbols(password,numbers,1) &&
+    var requirements: Seq[Boolean] =Seq(password.length() >= minLength,
+                                        hasNSymbols(password,lowercase,1),
+                                        hasNSymbols(password,uppercase,1),
+                                        hasNSymbols(password,numbers,1),
                                         hasNSymbols(password,specials,1))
     val isValid = requirements.reduce(_ && _)
     if (isValid) Some(true) else None
