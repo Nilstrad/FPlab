@@ -66,31 +66,22 @@ def goodEnoughPassword2(password: String): Either[Boolean, String] = {
 
         
 
-def readPassword():Future[String] = {
-    val res = Future {
-        var validPassword = false
-        var password = ""
-
-        while (!validPassword) {
-            password = readLine("Please enter a password: ")
-
-            goodEnoughPassword2(password) match{
-                case Left(value) => 
-                    println("Успех!")
-                    validPassword = true
-                case Right(errorMessage) => println(errorMessage)
-            }
-        }
-
-        password
-    }
-    
-    res.onComplete{
-        case Success(value) => println(s"Введенный пароль: $value")
-        case Failure(exception) => println(s"Произошла ошибка!")
-    }
-    res
-}
+def readCorrectPassword():Future[String] =  
+    //Заворачиваем всё в Future 
+    Future{ 
+        //Считываем кандидата на пароль 
+        val candidate = readLine("Please enter a password: ") 
+        goodEnoughPassword2(candidate) match 
+            //Всё ок 
+            case Left(true) => candidate 
+            //Ошибки 
+            case Right(errorMessage) =>  
+                println(errorMessage) 
+                Await.result(readCorrectPassword(), Duration.Inf) 
+            //Какой бы смысл не вкладывался в этот false, он значит что всё совсем полохо. 
+            case Left(false) =>  
+                throw new Exception("Something went VERY wrong") 
+    } 
 
 @main def runApp = {
     val password1 = "StrongPass123!"
